@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>The Nest - Real Estate HTML Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <!-- External CSS libraries -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-submenu.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="css/leaflet.css" type="text/css">
+    <link rel="stylesheet" href="css/map.css" type="text/css">
+    <link rel="stylesheet" href="css/sidenav.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" type="text/css" href="fonts/linearicons/style.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" type="text/css" href="css/dropzone.css">
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" id="style_sheet" href="css/skins/default.css">
+    <!-- Favicon icon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- Google fonts -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800%7CPlayfair+Display:400,700%7CRoboto:100,300,400,400i,500,700">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link rel="stylesheet" type="text/css" href="css/ie10-viewport-bug-workaround.css">
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script type="text/javascript" src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script type="text/javascript" src="js/ie-emulation-modes-warning.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="js/html5shiv.min.js"></script>
+    <script type="text/javascript" src="js/respond.min.js"></script>
+    <![endif]-->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <link rel="Stylesheet" type="text/css" href="css/carousel.css" />
+      <link rel="Stylesheet" type="text/css" href="css/rentcss.css" />
+    <script type="text/javascript" src="scripts/jquery-1.4.4.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.mousewheel.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.carousel-1.1.min.js"></script>
+    <script type="text/javascript" src="scripts/sample01.js"></script>
+</head>
+
+<body>
+	 <div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none;right:0;z-index: 99999999;" id="rightMenu">
+        <button onclick="closeRightMenu()" class="w3-bar-item w3-button w3-large closee" style="background: #ffb400;
+    height: 40px;"> <img src="img/close-white.png" alt=""></button>
+         <a href="#" class="w3-bar-item w3-button">Link 1</a> 
+         <a href="#" class="w3-bar-item w3-button">Link 2</a> 
+         <a href="#" class="w3-bar-item w3-button">Link 3</a> 
+    </div>
+  <!-- Main header start -->
+    <header class="main-header">
+        <div class="container">
+            <nav class="navbar navbar-default navbar-fixed-top" style="border-bottom: 1px solid #eee;background:#fff ;width: 100%;">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navigation" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                    <button class="w3-button w3-teal w3-xlarge w3-right hidden-lg hidden-md" onclick="openRightMenu()" style="
+                    color: #f8f8f8!important;
+                    background-color: #ffb400!important;
+                    border: 2px solid;
+                    height: 33px;
+                    line-height: 4px;
+                    border-radius: 3px;
+                    margin-left: 5px;
+                    top: 8px;
+                    position: relative;
+                 ">&#9776;</button>
+                    <a href="index-3.html" class="logo"> <img src="img/footer-logo.png" alt="logo"> </a>
+                </div>
+               
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="navbar-collapse collapse" role="navigation" aria-expanded="true" id="app-navigation">
+                    <ul class="nav navbar-nav">
+                   <li class="dropdown" style=" margin-right: 65px;"><a href="index-3.html" tabindex="0" data-toggle="dropdown" data-submenu="" aria-expanded="false" style="color: black !important;">Cairo <i class="fa fa-chevron-down"></i></a>
+                   <ul class="dropdown-menu">
+                            <li><a href="index.html" style="color: black !important;">Giza</a></li>
+                            <li><a href="index.html" style="color: black !important;">6th of October</a></li>
+                        </ul>
+                     </li>
+                  <li class=""> <a style="color: black !important;">About</a></li>
+                        <li> <a href="login.html" class="sign-in" style="color: black !important;"><i class="fa fa-sign-in"></i> Login</a> </li>
+                        <li> <a href="signup.html" class="sign-in" style="color: black !important;"><i class="fa fa-user"></i> Register</a> </li>
+                        <li> <a href="signup.html" class="sign-in" style="color: black !important;"><i class="fa fa-search"></i> Search for office</a> </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right rightside-navbar">
+                        <li> <a href="submit-property.html" class="button">
+                            Submit Property
+                        </a> </li>
+                        
+                        <li>
+                            <button class="w3-button w3-teal w3-xlarge w3-right" onclick="openRightMenu()">&#9776;</button>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+                <!-- /.container -->
+            </nav>
+        </div>
+    </header>
+    <!-- Main header end -->
+    <!-- carousel -->
+   <div  class="column12container main_container">
+   	    	<div class="background">
+
+<div class="column12">
+
+<div class="carousel"> <!-- BEGIN CONTAINER -->
+    
+    <div class="slides"> <!-- BEGIN CAROUSEL -->
+    
+        <div> <!-- SLIDE ITEM -->
+            <a href="#">
+                <img src="images/slide-1.jpg"/>
+            </a>            
+        </div>
+        
+        <div>
+            <a href="#">
+                <img src="images/slide-2.jpg"/>
+            </a>
+        </div>
+        
+        <div>
+            <a href="#">
+                <img src="images/slide-3.jpg" />
+            </a>
+        </div>
+        
+        <div>
+            <a href="#">
+                <img src="images/slide-4.jpg" />
+            </a>
+        </div>
+        
+        <div>
+            <a href="#">
+                <img src="images/slide-5.jpg"/>
+            </a>
+        </div>
+        
+        <div>
+            <a href="#">
+                <img src="images/slide-6.jpg"/>
+            </a>
+        </div>
+        
+        <div>            
+                <img src="images/slide-7.jpg"/>
+        </div>
+                        
+    </div> <!-- END SLIDES -->
+       
+</div> <!-- END CAROUSEL -->
+</div>
+</div>
+</div>
+
+<!-- start first-section-->
+<div class="section1">
+	<div class="container">
+		<div class="col-md-6">
+			<h2>Second Home - London Fields</h2>
+            <p><i class="fa fa-map-marker" aria-hidden="true"></i>E8, Cairo</p>
+            <br>
+            <br>
+            <span>Welcome</span>
+            <hr>
+            <span><b>Opnening 2018</b></span>
+            <p>
+            	The most magical & innovative working environment in the heart of London Fields, Second Home enables parents to combine work & life easier than ever before. The space provides private studios & flexible workspaces for teams of up to 50 - all surrounded by curves, natural light & thousands of plants & trees. Members will enjoy access to our world-class Cultural Programme, Member-only Be Better sessions & weekly wellness programme, as well as on-site creche & family-friendly public areas
+            </p>
+            <br>
+            <p>Our space in three words:</p>
+            <span style="color: #FFBB01">Plants, Creativity, Community</span>
+            <p>What we love about our space:</p>
+            <span style="color: #FFBB01">Iconic Architecture, Amazing Community, World-Class Cultural Programme</span>
+            <br>
+            <br>
+            <span>Location</span>
+            <hr>
+            <div class="Location">
+            <div class="col-md-3">
+            	<a href="#"><img src="images/staticmap.png"/></a>
+            </div>
+            <div class="col-md-3" style="float: right;">
+            	<p><b>Down Town</b></p>
+            	<p>12 min Walk</p>
+            </div>
+            </div>
+            
+		</div>
+		<div class="col-md-2">
+			<button class="btn btn-primary" style="margin-top: 15px;"><i class="fa fa-heart" aria-hidden="true"></i>
+            SHORTLIST</button>
+		</div>
+		<div class="col-md-4" style="margin-top: 20px;">
+			<div class="btn-group">
+  <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown">
+  <small style="float: left;"><b>Hot Desk |250LE p/m</b></small><br><small>Desks available:100    </small>   <span style="color: #FFBB01" >Available Now</span> <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</div> <!--end first button-->
+  <button class="btn btn-default btn-lg" type="button" style="background-color: #FFBB01; color: #fff; padding-right: 140px;margin-top: 10px;">Request more Info</button>
+  <button class="btn btn-default btn-lg" type="button" style="background-color: transparent;border:2px solid black; padding-right: 140px;margin-top: 10px;">Request more Info</button>
+
+		</div>
+		
+	</div>
+	
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Footer start -->
+    <footer class="main-footer clearfix" style="margin-top: 1000px;">
+        <div class="container">
+            <!-- Footer top -->
+            <div class="footer-top">
+                <div class="row">
+                    <div class="col-lg-5 col-md-4 col-sm-3 col-xs-12">
+                        <div class="logo-2">
+                            <a href="index.html"> <img src="img/footer-logo.png" alt="footer-logo"> </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4  col-md-4 col-sm-5 col-xs-12">
+                        <form action="#" method="GET">
+                            <input type="text" class="form-contact" name="email" placeholder="Enter your email">
+                            <button type="submit" name="submitNewsletter" class="btn btn-default button-small"> <i class="fa fa-paper-plane"></i> </button>
+                        </form>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+                        <ul class="social-list clearfix">
+                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer info-->
+            <div class="footer-info">
+                <div class="row">
+                    <!-- About us -->
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="footer-item">
+                            <div class="main-title-2">
+                                <h1>Contact Us</h1> </div>
+                            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's printing and typesetting </p>
+                            <ul class="personal-info">
+                                <li> <i class="fa fa-map-marker"></i> Address: 20/F Green Road, Dhanmondi, Dhaka </li>
+                                <li> <i class="fa fa-envelope"></i> Email:<a href="mailto:sales@hotelempire.com">info@themevessel.com</a> </li>
+                                <li> <i class="fa fa-phone"></i> Phone: <a href="tel:+55-417-634-7071">+55 4XX-634-7071</a> </li>
+                                <li> <i class="fa fa-fax"></i> Fax: +55 4XX-634-7071 </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Links -->
+                    <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                        <div class="footer-item">
+                            <div class="main-title-2">
+                                <h1>Links</h1> </div>
+                            <ul class="links">
+                                <li> <a href="index.html">Home</a> </li>
+                                <li> <a href="about.html">About Us</a> </li>
+                                <li> <a href="contact.html">Contact Us</a> </li>
+                                <li> <a href="blog-single.html">Blog</a> </li>
+                                <li> <a href="properties-list-rightside.html">properties Listing</a> </li>
+                                <li> <a href="properties-grid-rightside.html">properties Grid</a> </li>
+                                <li> <a href="properties-details.html">properties Details</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Tags -->
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="footer-item tags-box">
+                            <div class="main-title-2">
+                                <h1>Tags</h1> </div>
+                            <ul class="tags">
+                                <li><a href="#">Image</a></li>
+                                <li><a href="#">Features</a></li>
+                                <li><a href="#">Typography</a></li>
+                                <li><a href="#">Gallery</a></li>
+                                <li><a href="#">Slideshow</a></li>
+                                <li><a href="#">Post Formats</a></li>
+                                <li><a href="#">Sellers</a></li>
+                                <li><a href="#">WooCommerce</a></li>
+                                <li><a href="#">Shortcodes</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Recent cars -->
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="footer-item popular-posts">
+                            <div class="main-title-2">
+                                <h1>popular posts</h1> </div>
+                            <div class="media">
+                                <div class="media-left"> <img class="media-object" src="img/properties/small-properties-1.jpg" alt="small-properties-1"> </div>
+                                <div class="media-body">
+                                    <h3 class="media-heading">
+                                    <a href="#">Modern Design Building</a>
+                                </h3>
+                                    <p>21 October, 2016</p>
+                                    <div class="comments-icon"> <i class="fa fa-comments"></i>45 comments </div>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="media-left"> <img class="media-object" src="img/properties/small-properties-2.jpg" alt="small-properties-2"> </div>
+                                <div class="media-body">
+                                    <h3 class="media-heading">
+                                    <a href="#">Real Eatate Expo 2016</a>
+                                </h3>
+                                    <p>10 October, 2016</p>
+                                    <div class="comments-icon"> <i class="fa fa-comments"></i>32 comments </div>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="media-left"> <img class="media-object" src="img/properties/small-properties-3.jpg" alt="small-properties-3"> </div>
+                                <div class="media-body">
+                                    <h3 class="media-heading">
+                                    <a href="#">Construction and Development</a>
+                                </h3>
+                                    <p>10 October, 2016</p>
+                                    <div class="comments-icon"> <i class="fa fa-comments"></i>58 comments </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer end -->
+    <!-- Copy right start -->
+    <div class="copy-right">
+        <div class="container"> &copy; 2017 <a href="http://themevessel.com/" target="_blank">Theme Vessel</a>. Trademarks and brands are the property of their respective owners. </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+      <!-- Copy end right-->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-submenu.js"></script>
+    <script type="text/javascript" src="js/rangeslider.js"></script>
+    <script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mb.YTPlayer.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-select.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollUp.js"></script>
+    <script type="text/javascript" src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="js/leaflet.js"></script>
+    <script type="text/javascript" src="js/leaflet-providers.js"></script>
+    <script type="text/javascript" src="js/leaflet.markercluster.js"></script>
+    <script type="text/javascript" src="js/dropzone.js"></script>
+    <script type="text/javascript" src="js/jquery.filterizr.js"></script>
+    <script type="text/javascript" src="js/maps.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script type="text/javascript" src="js/ie10-viewport-bug-workaround.js"></script>
+    <!-- Custom javascript -->
+    <script type="text/javascript" src="js/ie10-viewport-bug-workaround.js"></script>
+    <script>
+        function openRightMenu() {
+            document.getElementById("rightMenu").style.display = "block";
+           document.getElementById("overlay").style.display = "block";
+      
+        }
+
+        function closeRightMenu() {
+            document.getElementById("rightMenu").style.display = "none";
+            document.getElementById("overlay").style.display = "none";
+        }
+    </script>
+</body>
+</html>
