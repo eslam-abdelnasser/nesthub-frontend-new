@@ -18,3 +18,289 @@
 	background-color: rgba(0,0,0,.9);
   }
 
+.navbar
+{
+border-bottom: 1px solid #eee;
+background:#fff ;
+width: 100%;
+padding-right:9%;
+}
+.navbar-header
+{
+	padding-left:9%;
+}
+.w3-button .hidden-md
+{
+
+      color: #FFBB01 !important;
+      background-color: #fff !important;
+      border: 2px solid;
+      height: 35px;
+      line-height: 5px;
+      border-radius: 3px;
+      margin-left: 5px;
+      position: relative;
+             
+}
+.section1
+{
+	position: relative;
+}
+
+.Home span
+{
+ color: #FFBB01;
+}
+.Home button.shortlist
+{
+margin-top: 20px;
+background-color:#fff !important;
+border-color: #FFBB01!important;
+border-radius: 0 !important; 
+color: #FFBB01 !important;
+}
+.Home button.shortlist  .fa-heart
+{
+	color: #FFBB01 !important;
+}
+.right-part
+{
+  margin-top: 20px;
+  
+}
+.right-fixed
+{
+	/*position: fixed;*/
+}
+.right-part .part1  .dropdown-toggle small.sm
+{
+ float: left;
+}
+.right-part .part1 button
+{
+	border-radius: 0 !important;
+	border-color: #D9D9D9;
+}
+.right-part .part1 button span
+{   
+	 color: #FFBB01;
+}
+.right-part .part1 ul li span
+{
+	 color: #FFBB01;
+}
+.right-part .part1 ul.dropdown-menu
+{
+	width: 100%;
+}
+.right-part .part1 button.colored
+{
+	background-color: #FFBB01; color: #fff; padding-right: 140px;margin-top: 10px;
+	border-color: #FFBB01 !important;
+}
+.right-part .part1 button.n-colored
+{
+  background-color: transparent;
+  border:2px solid black; 
+  padding-right: 140px;
+  margin-top: 10px;
+}
+.right-part .part2
+{
+	margin-top: 40px;
+}
+.right-part .part2 i
+{
+	color: #FFBB01;
+}
+.right-part .part3
+{
+ margin-top: 40px;
+}
+.right-part .part3 span
+{
+	color:#000099;
+}
+.right-part .part3 p
+{
+margin-top:20px;	
+}
+
+.office-details
+{
+    margin-top: 300px;
+
+}
+.office-details ul li a
+{
+	padding-right: 30px;
+}
+.office-details .tab-content img
+{
+width:530px;
+height: 300px;
+margin-top: 20px;
+}
+.office-details .tab-content .main-content
+{
+	margin-top:20px; 
+}
+.office-details .tab-content .main-content span
+{
+	border-radius:50%; 
+	background-color:#FFBB01;
+}
+.office-details .tab-content .main-content span i
+{
+	color: #fff;
+}
+.office-details .tab-content .main-content .availableDesk
+{
+	 margin-left: -60px;
+	 margin-top: -23px;
+}
+.office-details .tab-content .main-content  .data .Paragraphs
+{
+	margin-left: -25px;
+}
+.office-details .tab-content .main-content  .data  .fa-circle
+{
+	font-size: 6px;
+}
+ .office-details .tab-pane  .main-content
+{
+	margin-top:80px; 
+}
+ .office-details .tab-pane  .main-content span
+ {
+ 	border-radius:50%;
+    background-color:#FFBB01;
+ }
+.office-details .tab-pane  .main-content span i
+{
+	color: #fff;
+}
+.Facilies
+{
+	margin-top:100px;
+}
+.Facilies .bussines
+{
+	margin-top: 30px;
+}
+.Facilies .bussines .bus1 i.fa-times 
+{
+	color: #D9D9D9;
+	margin-left: -30px;
+}
+.Facilies .bussines .bus1 i.fa-check  
+{
+	color: #FFBB01;
+	margin-left: -30px;
+}
+.Facilies .bussines .bus1 span.gray ,.Facilies .Additional .bus2 span.gray 
+{
+		color: #D9D9D9;
+}
+.Facilies .bussines .bus1  span ,.Facilies .bussines .bus2  span ,.Facilies .Additional .bus2  span 
+{
+	margin-left: 10px;
+
+}
+.Facilies .bussines .bus2 i.fa-check , .Facilies .Additional .bus2 i.fa-check
+{
+color: #FFBB01;
+}
+.Additional
+{
+	margin-top: 200px;
+}
+.Facilies .Additional .bus1 i.fa-times
+{
+	color: #D9D9D9;
+	margin-left: -30px;
+}
+.Facilies .Additional .bus1 i.fa-check
+{
+	color: #FFBB01;
+	margin-left: -30px;
+}
+.Facilies .Additional .bus1 span.gray
+{
+color: #D9D9D9;
+}
+.Facilies .Additional .bus1  span
+{
+margin-left: 10px;
+}
+.Facilies .Additional .bus1 span.gray 
+{
+		color: #D9D9D9;
+}
+.Facilies .Additional .bus2 i.fa-times
+{
+	color: #D9D9D9;
+}
+.highlights
+{
+	margin-top:190px;
+}
+.highlights hr
+{
+	color:#D9D9D9;
+}
+.highlights .ICONIC
+{
+	margin-top: 20px;
+}
+.highlights .ICONIC .numbers 
+{
+	border-radius:50%; background-color:#000099; width: 50%;
+}
+.highlights .ICONIC .numbers span
+{
+	margin-left: 10px;
+	color: #fff;
+}
+.highlights .ICONIC .arch
+{
+margin-top: -20px;
+ margin-left:-50px;
+}
+.highlights .AMAZING
+{
+	margin-top: 50px;
+}
+.highlights .AMAZING .no
+{
+	border-radius:50%;
+    background-color:#FFBB01;
+     width: 50%;
+
+}
+.highlights .AMAZING .no span
+{
+	margin-left: 13px;
+	color: #fff;
+}
+.highlights .AMAZING .no .comm
+{
+  margin-top: -20px; 
+  margin-left:-50px;
+}
+.AboutUs
+{
+	margin-top: 50px;
+}
+.question
+{
+	margin-top:100px; width: 100%; text-align: center;
+}
+.middel-div
+{
+	padding-top:30px;padding-bottom: 30px ;background-color:#000099; color:#fff;
+}
+.middel-div a
+{
+	text-decoration: underline;color: #fff;
+}
