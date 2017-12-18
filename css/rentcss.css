@@ -255,12 +255,35 @@ margin-left: 10px;
 }
 .highlights .ICONIC .numbers 
 {
-	border-radius:50%; background-color:#000099; width: 50%;
+	height: 30px;
+	width: 30px;
+	border-radius:0%; background-color:#eee;
+	border-color: black;
+
+	transform: rotate(45deg);
 }
-.highlights .ICONIC .numbers span
+.highlights .ICONIC .numbers div
 {
 	margin-left: 10px;
-	color: #fff;
+		transform: rotate(-45deg);
+
+	
+}
+.Neighbourhood .neighbours .numbers 
+{
+	height: 30px;
+	width: 30px;
+	border-radius:0%; background-color:#fff;
+	border-color: black;
+
+	transform: rotate(45deg);
+}
+.Neighbourhood .neighbours .numbers div
+{
+	margin-left: 10px;
+		transform: rotate(-45deg);
+
+	
 }
 .highlights .ICONIC .arch
 {
@@ -303,4 +326,76 @@ margin-top: -20px;
 .middel-div a
 {
 	text-decoration: underline;color: #fff;
+}
+.highlights .ICONIC #diamond
+{
+	width: 0;
+	height: 0;
+	border: 20px solid #eee;
+	border-bottom-color: #fff;
+	position: relative;
+	margin-top: -20px;
+}
+.highlights .ICONIC #diamond:after {
+	content: '';
+	position: absolute;
+	left: -20px;
+	top: 20px;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: #fff;
+}
+.Neighbourhood 
+{
+	background-color: #eee;
+	padding-bottom: 200px;
+}
+.Neighbourhood h3
+{
+	margin-top: 100px; 
+ text-align: center;
+}
+.Neighbourhood .image img
+{
+	border-radius: 50%;
+}
+.Neighbourhood .neighbours
+{
+	padding-top: 80px;
+	margin-left: -40px;
+}
+.Neighbourhood .neighbours .row b
+{
+ margin-top: -15px;
+}
+.Neighbourhood .neighbours .row .num2
+{
+	margin-top: -40px;
+}
+
+.Neighbourhood .neighbours #diamond 
+{
+	
+	width: 0;
+	height: 0;
+	border: 20px solid #eee;
+	border-bottom-color: #fff;
+	position: relative;
+	margin-top: -20px;
+}
+.Neighbourhood .neighbours #diamond p
+{
+	margin-top: 3px;
+	margin-left: -3px;
+}
+.Neighbourhood .neighbours #diamond:after {
+	content: '';
+	position: absolute;
+	left: -20px;
+	top: 20px;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: #fff;
 }

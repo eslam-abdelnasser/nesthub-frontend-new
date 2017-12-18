@@ -44,6 +44,9 @@
     <script type="text/javascript" src="scripts/jquery.mousewheel.min.js"></script>
     <script type="text/javascript" src="scripts/jquery.carousel-1.1.min.js"></script>
     <script type="text/javascript" src="scripts/sample01.js"></script>
+    <script type="text/javascript" src="scripts/rent.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBwuev6Dj8Xvo7fePYs2YJ8KA84xxBCIUo&libraries=places"></script>
+
 </head>
 
 <body>
@@ -189,8 +192,8 @@
              <div class="Location">
                <span><b>Location</b></span>
                <hr>
-            <div class="col-md-9">
-            	<a href="#"><img src="images/staticmap.png"/></a>
+            <div class="col-md-9 mapId">
+                <a href="https://www.google.com.eg/maps?source=tldsi&hl=ar"><img src="images/staticmap.png" /></a>
             </div>
             <div class="col-md-3">
             	<p><b>Down Town</b></p>
@@ -398,7 +401,7 @@
                 <div class="ICONIC">
                  <div class="container">
                 		<div class="col-md-1 ">
-                		  <div class="numbers"><span>1</span></div>
+                		  <div class="numbers"><div>1</div></div>
                 	  </div>
                 	 <div class="col-md-5 arch">
                       <p>ICONIC ARCHITECTURE</p>
@@ -410,7 +413,7 @@
                 <div class="ICONIC" >
                 	<div class="container">
                 		<div class="col-md-1">
-                		<div class="numbers"><span>2</span></div>
+                		<div class="numbers"><div>2</div></div>
                 	  </div>
                 	   <div class="col-md-5 arch">
                        <p>AMAZING COMMUNITY</p>
@@ -422,7 +425,7 @@
                 <div class="ICONIC">
                 	<div class="container">
                 		<div class="col-md-1">
-                		  <div class="numbers"><span>3</span></div>
+                		  <div class="numbers"><div>3</div></div>
                 	  </div>
                 	   <div class="col-md-5 arch">
                        <p>WORLD-CLASS CULTURAL PROGRAMME</p>
@@ -434,7 +437,7 @@
                 <div class="ICONIC">
                 	<div class="container">
                 		<div class="col-md-1">
-                		  <div class="numbers"><span>3</span></div>
+                		  <div class="numbers"><div>4</div></div>
                 	  </div>
                 	  <div class="col-md-5 arch">
                       <p>FAMILY-FRIENDLY</p>
@@ -520,10 +523,80 @@
     			</div>
     </div>
     <!--end question-->
-       <!--start neighbour part     not completed--> 
-    <div class="Neighbourhood Guide">
+       <!--start neighbour part   --> 
+    <div class="Neighbourhood">
     	<div class="container">
-    		<h4>Neighbourhood Guide</h4>
+    		<h3>Neighbourhood Guide</h3>
+            <div class="row ">
+          <div class="col-md-4 image">
+            <a href="https://www.google.com.eg/maps?source=tldsi&hl=ar"><img src="images/map.png" ></a>
+          </div>
+          <div class="col-md-4 neighbours">
+               <div class="col-md-2">
+             <div class="numbers"><div>1</div></div>
+           </div>
+            <div class="col-md-10">
+             <b>MORTY & BOB'S</b><br/>
+             <p>Breakfast Spot</p>
+           </div>
+            </div>
+             <div class="col-md-4 neighbours">
+               <div class="col-md-2">
+             <div class="numbers"><div>2</div></div>
+           </div>
+            <div class="col-md-10">
+             <b>MORTY & BOB'S</b><br/>
+             <p>Breakfast Spot</p>
+           </div>
+            </div>
+        </div>
+          <div class="row">
+          <div class="col-md-4 image">
+            <a href="#"><img ></a>
+          </div>
+          <div class="col-md-4 neighbours" style="margin-top: -110px;">
+               <div class="col-md-2">
+             <div class="numbers"><div>3</div></div>
+           </div>
+            <div class="col-md-10">
+             <b>MORTY & BOB'S</b><br/>
+             <p>Breakfast Spot</p>
+           </div>
+            </div>
+             <div class="col-md-4 neighbours" style="margin-top: -110px;">
+               <div class="col-md-2">
+             <div class="numbers"><div>4</div></div>
+           </div>
+            <div class="col-md-10">
+             <b>MORTY & BOB'S</b><br/>
+             <p>Breakfast Spot</p>
+           </div>
+            </div>
+        </div>
+            <div class="row ">
+          <div class="col-md-4 image">
+            <a href="#"><img ></a>
+          </div>
+          <div class="col-md-4 neighbours" style="margin-top: -10px;">
+               <div class="col-md-2">
+             <div class="numbers"><div>5</div></div>
+           </div>
+            <div class="col-md-10">
+             <b>MORTY & BOB'S</b><br/>
+             <p>Breakfast Spot</p>
+           </div>
+            </div>
+
+             <div class="col-md-4 neighbours" style="margin-top: -10px;">
+               <div class="col-md-2">
+             <div class="numbers"><div>6</div></div>
+           </div>
+            <div class="col-md-10">
+             <b>MORTY & BOB'S</b><br/>
+             <p>Breakfast Spot</p>
+           </div>
+            </div>
+        </div>
     	</div>	
     </div>
     <!--end neighbour-->
@@ -922,6 +995,7 @@
     <script type="text/javascript" src="js/ie10-viewport-bug-workaround.js"></script>
     <!-- Custom javascript -->
     <script type="text/javascript" src="js/ie10-viewport-bug-workaround.js"></script>
+
     <script>
         function openRightMenu() {
             document.getElementById("rightMenu").style.display = "block";
@@ -934,5 +1008,8 @@
             document.getElementById("overlay").style.display = "none";
         }
     </script>
+
+    
+
 </body>
 </html>
