@@ -156,17 +156,18 @@
 </div>
 
 <!-- start first-section-->
-<div class="section1">
-	<div class="container">
-		<!-- start left part-->
-		<div class="row">
-		<div class="col-md-8">
+<section class="content">
+  <div class="row" >
+    <div class="container">
+      <!--start left part-->
+    <div class="col-md-8 ">
+    <div class="left">
       <div class="Home">
-        <div class="row">
-           <div class="col-md-8">
+        <div class="row wow bounceInLeft" >
+           <div class="col-md-8 ">
            <h2>Second Home - London Fields</h2>
         </div>
-       <div class="col-md-4">
+       <div class="col-md-4 ">
          <button class="btn btn-lg btn-primary shortlist" ><i class="fa fa-heart" aria-hidden="true"></i>
             SHORTLIST</button>
        </div>
@@ -177,13 +178,13 @@
             <span>Welcome</span>
             <hr>
             <span><b>Opnening 2018</b></span>
-            <p>
+            <p >
               The most magical & innovative working environment in the heart of London Fields, Second Home enables parents to combine work & life easier than ever before. The space provides private studios & flexible workspaces for teams of up to 50 - all surrounded by curves, natural light & thousands of plants & trees. Members will enjoy access to our world-class Cultural Programme, Member-only Be Better sessions & weekly wellness programme, as well as on-site creche & family-friendly public areas
             </p>
             <br>
-             <p>Our space in three words:</p>
+             <p >Our space in three words:</p>
             <span>Plants, Creativity, Community</span>
-            <p>What we love about our space:</p>
+            <p >What we love about our space:</p>
             <span>Iconic Architecture, Amazing Community, World-Class Cultural Programme</span>
             <br>
             <br>
@@ -192,10 +193,10 @@
              <div class="Location">
                <span><b>Location</b></span>
                <hr>
-            <div class="col-md-9 mapId">
+            <div class="col-md-9 mapId wow bounceInLeft " data-wow-delay="1.2s">
                 <a href="https://www.google.com.eg/maps?source=tldsi&hl=ar"><img src="images/staticmap.png" /></a>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 wow bounceInRight">
             	<p><b>Down Town</b></p>
             	<p>12 min Walk</p>
             </div>
@@ -203,7 +204,7 @@
             <!-- OFFICE-->
             <div class="office-details">
             	<div class="container">
-            	  <div class="col-md-6">
+            	  <div class="col-md-6 wow bounceInLeft " data-wow-delay="1.8s">
                   <span><b>Office Details</b></span>
                     <hr>
                     <ul class="nav nav-tabs">
@@ -212,8 +213,8 @@
 		                   <li><a data-toggle="tab" href="#menu2">Private Office <br><small>450LE per Month</small></a></li>
 		                </ul>
                     <!--tab1-->
-		  <div class="tab-content" >
-        <div id="home" class="tab-pane fade in active">
+		  <div class="tab-content " >
+        <div id="home" class="tab-pane fade in active ">
               <img src="images/slide-1.jpg">
               <br>
               <br>
@@ -275,8 +276,7 @@
                <div class="col-md-1"><i class="fa fa-circle" aria-hidden="true"></i> </div> 
                <div class="col-md-11 Paragraphs"><p>Suitable for individuals and small teams</p></div>
             </div>
-      	
-      </div>
+      	</div>
     </div> <!-- end tab2-->
     <!--tab3-->
     <div id="menu2" class="tab-pane fade">
@@ -314,16 +314,124 @@
  </div>
  </div>
  </div><!-- end office-->
-            <!-- start Facilites-->
-            <div class="Facilies" >
-            	<div class="container">
-            		<div class="col-md-6">
+           
+		</div><!-- end left part-->
+  </div>
+		<!--rigth part-->
+    <div class="col-md-4" >
+    <div class="right "  >
+          <!-- dropdown-->
+       <div class="part1 wow flipInX " data-wow-delay="1.8s" >
+        <div class="row ">
+  	  <div class="col-md-12 btn-group">
+        <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown">
+           <small class="sm" style="float: left;"><b>Hot Desk |250LE p/m</b></small><br><small>Desks available:100    </small>   <span  >Available Now</span> <span class="caret"></span>
+       </button>
+       <ul class="dropdown-menu" role="menu">
+           <li><a href="#"><small><b>Hot Desk |250LE p/m</b></small><br><small>Desks available:100    </small>   <span  >Available Now</span></a></li>
+           <li><a href="#"><small ><b>Hot Desk |250LE p/m</b></small><br><small>Desks available:100    </small>   <span>Available Now</span></a></li>
+           <li><a href="#"><small><b>Hot Desk |250LE p/m</b></small><br><small>Desks available:100    </small>   <span>Available Now</span></a></li>
+            <li class="divider"></li>
+            <li><a href="#"><small><b>Hot Desk |250LE p/m</b></small><br><small>Desks available:100    </small>   <span>Available Now</span></a></li>
+       </ul>
+    </div> 
+    </div>
+    <!--end first button-->
+    <div class="row">
+      <div class="col-md-12">
+    <button class="btn btn-default btn-lg colored second" type="button" value="Show/Hide" onClick="showHideDiv('form1')">Request more Info</button>
+
+        <div class="form1" id="form1" data-wow-delay="0.4s" style="display: none;" >
+        <div class="loginmodal-container">
+          <h1>Create an account to request more info</h1><br>
+          <form>
+          <input type="email" name="email" placeholder="Email">
+          <input type="text" name="name" placeholder="Full Name">
+          <input type="password" name="pass" placeholder="Password">
+          </form>
+           <small >Or continue with:</small> <br>
+          <div class="social">
+              <div class="col-lg-4 col-md-4 ">
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+          <small> Facebook</small>
+
+        </div>
+        <div class="col-lg-4 col-md-4 " >
+          <i class="fa fa-linkedin" aria-hidden="true"></i>
+          <small> linkedIn</small>
+        </div>
+         <div class="col-lg-4 col-md-4">
+           <i class="fa fa-google-plus" aria-hidden="true"></i>
+            <small> Google</small>
+         </div>
+          </div>
+          <br/>
+         <button class="btn btn-default btn-md slide-button" type="button">Request more Info</button>
+           <br/>
+          <div class="help">Already have a Hubble account?<a href="#">login</a></div><br>
+          <div class="help">Forgot your password?<a href="#">Reset </a></div>
+        </div>
+      </div> 
+  </div>
+  </div> <!--end second button-->
+  <div class="row">
+    <div class="col-md-12">
+    <button class="btn btn-default btn-lg n-colored third" type="button">Request more Info</button>
+    </div>
+  </div>
+		</div>
+     <!--end part1-->
+    <!--part2-->
+		<div class="part2 row wow flipInX " data-wow-delay="1.6s" >
+      <div class="col-md-12">
+			<p><i class="fa fa-check" aria-hidden="true"></i> <b>100% free service</b></p>
+			<p><i class="fa fa-check" aria-hidden="true"></i><b> Zero commitment</b></p>
+			<p><i class="fa fa-check" aria-hidden="true"></i><b> Schedule a viewing instantly</b></p>
+		</div>
+    </div><!--end part2-->
+    <!--part3-->
+		<div class="part3 row wow flipInX " data-wow-delay="1.4s">
+      <div class="col-md-12">
+			<span ><i class="fa fa-tags" aria-hidden="true" ></i>&nbsp; &nbsp;<b > Exclusive Offer</b></span>
+			<p >
+				10% off your first three months of membership when you join Second Home through Hubble, plus a bespoke roundtable breakfast with the Second Home community focused on your business.
+			</p>
+      </div>
+		</div><!--end part3-->
+    <div class="part3 row wow flipInX " data-wow-delay="1.2s">
+      <div class="col-md-12">
+      <span ><i class="fa fa-tags" aria-hidden="true" ></i>&nbsp; &nbsp;<b > Other Offers</b></span>
+      <p >
+        20% off your first three months of membership when you join Second Home through Hubble, plus a bespoke roundtable breakfast with the Second Home community focused on your business.
+      </p>
+      </div>
+    </div><!--end part4-->
+    <div class="part3 row wow flipInX " data-wow-delay="1s">
+        <div class="col-md-12">
+        <span >&nbsp; &nbsp;<b > Take Tour</b></span>
+        <video width="100%" controls>
+  <source src="images/Co-working and space design - Hub Australia.mp4" type="video/mp4">
+  <source src="mov_bbb.ogg" type="video/ogg">
+</video>
+      </div>
+     
+    </div><!--end part5-->
+		  </div>
+      </div><!--end right part  -->
+	
+
+</div>
+  </div>
+  </section>
+   <!-- start Facilites-->
+            <div class="Facilies wow slideInUp" data-wow-delay="1s" >
+              <div class="container">
+                <div class="col-md-12">
                  <span ><b>Facilities</b></span>
-            	<hr>
-            	<!-- start busines-->
-                
+              <hr>
+              <!-- start busines-->
                 <div class="bussines" >
-                	<div><span ><b>Business</b></span></div>
+                  <div><span ><b>Business</b></span></div>
                 <br>
                 <div class="col-md-3 bus1" >
                   <div><i class="fa fa-times" aria-hidden="true"></i><span class="gray">24hr Access</span></div>
@@ -365,7 +473,7 @@
                 <!-- start Additional-->
                 
                 <div class="Additional">
-                	<div><span ><b>Additional</b></span>
+                  <div><span ><b>Additional</b></span>
                 </div><br>
                 <div class="col-md-3 bus1">
                    <div><i class="fa fa-check" aria-hidden="true"></i><span>Beer&Wine</span></div><br>
@@ -393,127 +501,84 @@
                 <div><i class="fa fa-check" aria-hidden="true"></i><span>Fruit&snack</span></div>
                 </div>
                 </div><!--end Additional-->
-                <!-- start highlights-->
+              </div>
+              </div>
+            </div>
+   <!-- start highlights-->
                 <div class="highlights" >
-                	<div><span ><b>Highlights</b></span>
-                		<hr>
+                  <div class="container">
+                  <div><span ><b>Highlights</b></span>
+                    <hr>
                 </div><br>
-                <div class="ICONIC">
+                <div class="ICONIC wow rollIn " data-wow-delay="1s" >
                  <div class="container">
-                		<div class="col-md-1 ">
-                		  <div class="numbers"><div>1</div></div>
-                	  </div>
-                	 <div class="col-md-5 arch">
+                    <div class="col-md-1 ">
+                      <div class="numbers"><div>1</div></div>
+                    </div>
+                   <div class="col-md-11 arch">
                       <p>ICONIC ARCHITECTURE</p>
-                	    <small>Work amongst hundreds of plants and trees, in a workspace filled with bright colours and natural light.</small>
+                      <small>Work amongst hundreds of plants and trees, in a workspace filled with bright colours and natural light.</small>
                    </div>
                  </div>
                 </div>
                 <br><br>
-                <div class="ICONIC" >
-                	<div class="container">
-                		<div class="col-md-1">
-                		<div class="numbers"><div>2</div></div>
-                	  </div>
-                	   <div class="col-md-5 arch">
+                <div class="ICONIC wow rollIn " data-wow-delay="2s" >
+                  <div class="container">
+                    <div class="col-md-1">
+                    <div class="numbers"><div>2</div></div>
+                    </div>
+                     <div class="col-md-11 arch">
                        <p>AMAZING COMMUNITY</p>
                        <small>Teams based here include Kickstarter, Artsy, TaskRabbit, Help Refugees, Ernst & Young and Cushman & Wakefield.</small>
-                	  </div>
-                	</div>
+                    </div>
+                  </div>
                 </div>
                 <br><br>
-                <div class="ICONIC">
-                	<div class="container">
-                		<div class="col-md-1">
-                		  <div class="numbers"><div>3</div></div>
-                	  </div>
-                	   <div class="col-md-5 arch">
+                <div class="ICONIC wow rollIn " data-wow-delay="3s" >
+                  <div class="container">
+                    <div class="col-md-1">
+                      <div class="numbers"><div>3</div></div>
+                    </div>
+                     <div class="col-md-11 arch">
                        <p>WORLD-CLASS CULTURAL PROGRAMME</p>
-                	     <small>Teams based here include Kickstarter, Artsy, TaskRabbit, Help Refugees, Ernst & Young and Cushman & Wakefield.</small>
-                	  </div>
-                	</div>
+                       <small>Teams based here include Kickstarter, Artsy, TaskRabbit, Help Refugees, Ernst & Young and Cushman & Wakefield.</small>
+                    </div>
+                  </div>
                 </div>
                 <br><br>
-                <div class="ICONIC">
-                	<div class="container">
-                		<div class="col-md-1">
-                		  <div class="numbers"><div>4</div></div>
-                	  </div>
-                	  <div class="col-md-5 arch">
+                <div class="ICONIC wow rollIn " data-wow-delay="4s" >
+                  <div class="container">
+                    <div class="col-md-1">
+                      <div class="numbers"><div>4</div></div>
+                    </div>
+                    <div class="col-md-11 arch">
                       <p>FAMILY-FRIENDLY</p>
-                	    <small>A first of its kind, Members have on-site access to an OSTED rated creche.</small>
-                	  </div>
-                	</div>
+                      <small>A first of its kind, Members have on-site access to an OSTED rated creche.</small>
+                    </div>
+                  </div>
                 </div>
-                	
+                  </div>
                 </div> <!-- end highlights-->
-                <!-- start about us-->
+  <!-- start about us-->
                 <div class="AboutUs">
-                	<div><h4>About Us</h4>
-                		<hr>
+                  <div class="container">
+                  <div><h4>About Us</h4>
+                    <hr >
                    </div><br>
                     <p>
-                 	    Second Home is Europe most innovative and iconic workspace – home to blue-chip corporations like Ernst & Young and Volkswagen, as well as creative businesses including Kickstarter, Artsy and TaskRabbit.
+                      Second Home is Europe most innovative and iconic workspace – home to blue-chip corporations like Ernst & Young and Volkswagen, as well as creative businesses including Kickstarter, Artsy and TaskRabbit.
                     </p>
                     <p>
-                	   Our beautiful spaces provide private studios and flexible workspaces for teams of up to 175 people – all surrounded by curves, natural light and thousands of plants and trees.
+                     Our beautiful spaces provide private studios and flexible workspaces for teams of up to 175 people – all surrounded by curves, natural light and thousands of plants and trees.
                     </p>
                     <p>
-                    	Second Home's creative community includes every possible industry – from fashion and media to technology and professional services – it's the perfect place for innovation  to flourish.
+                      Second Home's creative community includes every possible industry – from fashion and media to technology and professional services – it's the perfect place for innovation  to flourish.
                     </p>
                     <p>
-                    	Thanks to our world-class facilities, community and support, teams at Second Home grow 10 times faster than the national average.
+                      Thanks to our world-class facilities, community and support, teams at Second Home grow 10 times faster than the national average.
                     </p>
-
-                 </div><!-- start about us-->
-
-            	</div>
-            	</div>
-            	
-            </div>
-            
-            
-		</div><!-- end left part-->
-		<!--rigth part-->
-    <div class="right-part">
-      <div class="right-fixed">
-		<div class="col-md-4" >
-      <!-- dropdown-->
-       <div class="part1">
-  	  <div class="btn-group">
-        <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown">
-           <small class="sm" style="float: left;"><b>Hot Desk |250LE p/m</b></small><br><small>Desks available:100    </small>   <span  >Available Now</span> <span class="caret"></span>
-       </button>
-       <ul class="dropdown-menu" role="menu">
-           <li><a href="#"><small><b>Hot Desk |250LE p/m</b></small><br><small>Desks available:100    </small>   <span  >Available Now</span></a></li>
-           <li><a href="#"><small ><b>Hot Desk |250LE p/m</b></small><br><small>Desks available:100    </small>   <span>Available Now</span></a></li>
-           <li><a href="#"><small><b>Hot Desk |250LE p/m</b></small><br><small>Desks available:100    </small>   <span>Available Now</span></a></li>
-            <li class="divider"></li>
-            <li><a href="#"><small><b>Hot Desk |250LE p/m</b></small><br><small>Desks available:100    </small>   <span>Available Now</span></a></li>
-       </ul>
-    </div> <!--end first button-->
-      <button class="btn btn-default btn-lg colored" type="button">Request more Info</button>
-      <button class="btn btn-default btn-lg n-colored" type="button">Request more Info</button>
-		</div> <!--end part1-->
-    <!--part2-->
-		<div class="part2" >
-			<p><i class="fa fa-check" aria-hidden="true"></i> <b>100% free service</b></p>
-			<p><i class="fa fa-check" aria-hidden="true"></i><b> Zero commitment</b></p>
-			<p><i class="fa fa-check" aria-hidden="true"></i><b> Schedule a viewing instantly</b></p>
-		</div><!--end part2-->
-    <!--part3-->
-		<div class="part3">
-			<span ><i class="fa fa-tags" aria-hidden="true" ></i>&nbsp; &nbsp;<b > Exclusive Offer</b></span>
-			<p >
-				10% off your first three months of membership when you join Second Home through Hubble, plus a bespoke roundtable breakfast with the Second Home community focused on your business.
-			</p>
-		</div><!--end part3-->
-		  </div>
-      </div>
-       </div><!--end right part  -->
-		</div>
-	</div>
-</div>
+                 </div>
+                 </div><!-- end about us-->
     <!--start question part-->
     <div class="question" >
     
@@ -528,10 +593,10 @@
     	<div class="container">
     		<h3>Neighbourhood Guide</h3>
             <div class="row ">
-          <div class="col-md-4 image">
+          <div class="col-md-4 image wow rotateIn " data-wow-delay="0.3s">
             <a href="https://www.google.com.eg/maps?source=tldsi&hl=ar"><img src="images/map.png" ></a>
           </div>
-          <div class="col-md-4 neighbours">
+          <div class="col-md-4 neighbours wow lightSpeedIn " data-wow-delay="1s">
                <div class="col-md-2">
              <div class="numbers"><div>1</div></div>
            </div>
@@ -540,7 +605,7 @@
              <p>Breakfast Spot</p>
            </div>
             </div>
-             <div class="col-md-4 neighbours">
+             <div class="col-md-4 neighbours wow lightSpeedIn " data-wow-delay="3s">
                <div class="col-md-2">
              <div class="numbers"><div>2</div></div>
            </div>
@@ -554,7 +619,7 @@
           <div class="col-md-4 image">
             <a href="#"><img ></a>
           </div>
-          <div class="col-md-4 neighbours" style="margin-top: -110px;">
+          <div class="col-md-4 neighbours wow lightSpeedIn " data-wow-delay="1.8s" style="margin-top: -110px;">
                <div class="col-md-2">
              <div class="numbers"><div>3</div></div>
            </div>
@@ -563,7 +628,7 @@
              <p>Breakfast Spot</p>
            </div>
             </div>
-             <div class="col-md-4 neighbours" style="margin-top: -110px;">
+             <div class="col-md-4 neighbours wow lightSpeedIn " data-wow-delay="3.8s" style="margin-top: -110px;">
                <div class="col-md-2">
              <div class="numbers"><div>4</div></div>
            </div>
@@ -577,7 +642,7 @@
           <div class="col-md-4 image">
             <a href="#"><img ></a>
           </div>
-          <div class="col-md-4 neighbours" style="margin-top: -10px;">
+          <div class="col-md-4 neighbours wow lightSpeedIn " data-wow-delay="2.4s" style="margin-top: -10px;">
                <div class="col-md-2">
              <div class="numbers"><div>5</div></div>
            </div>
@@ -587,7 +652,7 @@
            </div>
             </div>
 
-             <div class="col-md-4 neighbours" style="margin-top: -10px;">
+             <div class="col-md-4 neighbours wow lightSpeedIn " data-wow-delay="4.4s" style="margin-top: -10px;">
                <div class="col-md-2">
              <div class="numbers"><div>6</div></div>
            </div>
@@ -608,7 +673,7 @@
                 <h3>Other Recommended Workspaces</h3> </div>
             <div class="row">
                 <div class="filtr-container">
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12  filtr-item" data-category="1, 2, 3">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12  filtr-item wow pulse " data-wow-delay="1s" >
                             <div class="col-item property">
                             <div class="photo"> <img src="img/properties/properties-4.jpg" class="img-responsive" alt="a" /> </div>
                             <div class="info">
@@ -655,10 +720,11 @@
                             </div>
                         </div>
                     </div>
+
                     <style>
                         
                     </style>
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12  filtr-item" data-category="1">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12  filtr-item wow pulse " data-wow-delay="1.4s" >
                         <div class="col-item">
                             <div class="photo"> <img src="img/properties/properties-4.jpg" class="img-responsive" alt="a" /> </div>
                             <div class="info">
@@ -704,7 +770,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12  filtr-item" data-category="2, 3">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12  filtr-item wow pulse " data-wow-delay="1.8s" >
                             <div class="col-item">
                             <div class="photo"> <img src="img/properties/properties-4.jpg" class="img-responsive" alt="a" /> </div>
                             <div class="info">
@@ -750,7 +816,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12  filtr-item" data-category="3, 4">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12  filtr-item wow pulse " data-wow-delay="2.2s" >
                             <div class="col-item">
                             <div class="photo"> <img src="img/properties/properties-4.jpg" class="img-responsive" alt="a" /> </div>
                             <div class="info">
@@ -995,7 +1061,10 @@
     <script type="text/javascript" src="js/ie10-viewport-bug-workaround.js"></script>
     <!-- Custom javascript -->
     <script type="text/javascript" src="js/ie10-viewport-bug-workaround.js"></script>
-
+<script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
     <script>
         function openRightMenu() {
             document.getElementById("rightMenu").style.display = "block";
@@ -1007,9 +1076,25 @@
             document.getElementById("rightMenu").style.display = "none";
             document.getElementById("overlay").style.display = "none";
         }
+});
     </script>
+ <script type="text/javascript">
+      function showHideDiv(ele) {
+        var srcElement = document.getElementById(ele);
+        if (srcElement != null) {
+          if (srcElement.style.display == "block") {
+            srcElement.style.display = 'none';
+          }
+          else {
+            srcElement.style.display = 'block';
+          }
+          return false;
+        }
+      }
+    </script>
+   
 
-    
+
 
 </body>
 </html>
