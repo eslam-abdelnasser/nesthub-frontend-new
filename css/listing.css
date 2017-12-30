@@ -1,0 +1,283 @@
+.navbar-header
+{
+	padding-left:2%;
+}
+.navbar
+{
+border-bottom: 1px solid #eee;
+background:#fff ;
+width: 100%;
+padding-right:2%;
+}
+ul.navbar-right  li a
+{
+	margin-top: -21px;
+	width: 100px;
+	height: 30px;
+	text-decoration: underline;
+}
+.logo:after
+{
+	content: '' !important;
+}
+.header-title p
+{
+	float: right;
+	margin-top: -50px;
+	margin-left: 200px;
+}
+.header-title p a
+{
+ color: gray;
+ text-decoration: underline;
+}
+.building
+{
+	padding-top: 120px;
+}
+.building div a
+{
+	float: right;
+	margin-top: 25px;
+	font-size: 13px;
+}
+.building div a i
+{
+	margin-top:1px; 
+ font-size: 20px;
+ 	margin-top: 10px;
+
+}
+.feature-building
+{
+	margin-top: 120px;
+}
+.feature-building div button
+{
+	float: right;
+    border-radius: 0; 
+    padding: 15px;
+}
+.feature-building div a
+{
+	text-decoration: underline;
+	 	color: gray;
+
+}
+.feature-building div a i
+{
+	margin-top:1px; 
+ 	margin-top: 10px;
+ 	color: gray;
+ 	text-decoration: underline;
+
+}
+.tab
+{
+	margin-top: 50px;
+}
+ul.nav-wizard {
+  background-color: #f1f1f1;
+  border: 1px solid #eee;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 0px;
+  position: relative;
+  overflow: hidden;
+}
+ul.nav-wizard:before {
+  position: absolute;
+}
+ul.nav-wizard:after {
+  display: block;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 138px;
+  height: 47px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  z-index: 11;
+  content: " ";
+}
+ul.nav-wizard li {
+  position: relative;
+  float: left;
+  height: 46px;
+   width: 25%;
+  display: inline-block;
+  text-align: center;
+  padding: 0 20px 0 30px;
+  margin: 0;
+  font-size: 16px;
+  line-height: 46px;
+}
+ul.nav-wizard li a {
+  color: #428bca;
+  padding: 0;
+}
+ul.nav-wizard li a:hover {
+  background-color: transparent;
+}
+ul.nav-wizard li:before {
+  position: absolute;
+  display: block;
+  border: 24px solid transparent;
+  border-right: 0;
+  top: -1px;
+  z-index: 10;
+  content: '';
+  right: -16px;
+}
+ul.nav-wizard li:after {
+  position: absolute;
+  display: block;
+  border: 24px solid transparent;
+  border-right: 0;
+  top: -1px;
+  z-index: 10;
+  content: '';
+  right: -15px;
+}
+ul.nav-wizard li.active {
+  color: #3a87ad;
+  background: #FBB01F;
+}
+ul.nav-wizard li.active:after {
+  border-left: 16px solid #FBB01F;
+}
+ul.nav-wizard li.active a,
+ul.nav-wizard li.active a:active,
+ul.nav-wizard li.active a:visited,
+ul.nav-wizard li.active a:focus {
+  color: #fff;
+  background: #FBB01F;
+}
+
+.tab-content .active .name
+{
+ margin-top: 20px;
+
+}
+.tab-content .active .address
+{
+ margin-top: 20px;
+
+}
+.tab-content .active .postal
+{
+ margin-top: 47px;
+
+}
+ .tab-content .active .name input[type=text]
+ {
+ 	width: 95%;
+
+ 	border:1px solid #eee;
+ 	padding: 5px;
+ }
+  .tab-content .active .address input[type=text]
+ {
+ 	width: 95%;
+
+ 	border:1px solid #eee;
+ 	padding: 5px;
+ }
+
+  .tab-content .active .postal input[type=text]
+ {
+ 	width: 95%;
+
+ 	border:1px solid #eee;
+ 	padding: 5px;
+ }
+ .tab-content .active .welcom-message
+  {
+  	margin-top:20px; 
+  }
+  .tab-content .active .welcom-message textarea
+  {
+  	width: 95%;
+  	height: 150px;
+  }
+  .tab-content .active .tips
+  {
+  	margin-top: 70px;
+  	color: gray;
+  }
+  .tab-content .active .about-us
+  {
+  	margin-top:20px; 
+  }
+  .tab-content .active .about-us textarea
+  {
+  	width: 95%;
+  	height: 150px;
+  }
+  .tab-content .active .facilities
+  {
+    	margin-top:40px;
+    	margin-bottom: 30px; 
+
+  }
+  .tab-content .active  input[type=checkbox]
+  {
+  margin-top: 0px;
+    width: 20px;
+    height: 20px;
+    
+   }
+.tab-content .active input[type=checkbox]:checked + label:before
+{
+	content: '';
+}
+.tab-content  .tab-pane .office
+{
+	margin-top: 60px;
+	text-decoration: underline;
+	font-size: 18px;
+}
+.tab-content  .tab-pane .office i
+{
+	font-size: 20px;
+}
+
+
+
+.inputDnD   .form-control-file {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 6em;
+    outline: none;
+    visibility: hidden;
+    cursor: pointer;
+    background-color: #c61c23;
+    box-shadow: 0 0 5px dashed currentColor;}
+   .form-control-file:before {
+      content: attr(data-title);
+      position: absolute;
+      top: 0.5em;
+      left: 0;
+      width: 100%;
+      min-height: 6em;
+      line-height: 2em;
+      padding-top: 1.5em;
+      opacity: 1;
+      visibility: visible;
+      text-align: center;
+      border: 1px dashed currentColor;
+      transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+      overflow: hidden;
+    }
+    .form-control-file:hover ,
+      .form-control-file:before {
+        border-style: dashed;
+        box-shadow: inset 0px 0px 0px 0.25em currentColor;
+      }
+    }
+  
+
+
+
+
