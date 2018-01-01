@@ -276,8 +276,133 @@ ul.nav-wizard li.active a:focus {
         box-shadow: inset 0px 0px 0px 0.25em currentColor;
       }
     }
+  .btn-warning
+  {
+  	float: left;
+  }
+ .modal-dialog {
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+  padding: 0;
   
+}
 
+.modal-content {
+ 
+  height: auto;
+  min-height: 100%;
+  min-width: 100%;
+  width: auto;
+  border-radius: 0 !important;
+  font-size: 12px;
+  font-weight: normal;
+  text-transform: none;
+}
+.modal-header-success {
+    color:#fff;
+    background-color: #5cb85c;
+   
+}
+.modal-header-warning {
+    color:#fff;
+    border-bottom:1px solid #eee;
+height: 60px;
+    background-color:  #FBB01F;
+    text-align: center;
+  
+}
+.modal-header-warning h2
+{
+	margin-top: -7px;
+}
+.modal-header-primary {
+    color:#fff;
+    background-color: #112299;
+    
+}
+.modal-body .nav>li 
+{
+	margin-top: 20px;
+	padding-bottom: 10px;
+	border:1px solid #eee;
+	width: 33.33333333%;
+}
 
+.modal-body .nav>li a:hover 
+{
+height: 100%;
+background-color: transparent;
+border:none !important;
+}
 
+.modal-body .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover
+{
+background-color: transparent;
+border:none !important;
+box-shadow: none !important;
+}
+.modal-body .nav>li.active
+{
+height: 100%;
+border:1px solid #FBB01F;
+}
+.modal-body .nav>li h4
+{
+		float: left;
+		text-transform: none !important;
+		    color: black;
+}
+.modal-body .nav>li small{
+		float: left;
+    font-size: 12px !important;
+    font-family: serif;
+    font-weight: 100px;
+    text-transform: none !important;
+    color:gray;
+}
+.Av-desk ,.PRICE
+{
+	padding: 30px;
+}
+.Av-desk input[type=number]
+ {
+ 	width: 95%;
 
+ 	border:1px solid #eee;
+ 	padding: 5px;
+ }
+ .Av-desk2 
+{
+	padding: 30px;
+}
+.Av-desk2 input[type=number]
+ {
+ 	width: 40%;
+
+ 	border:1px solid #eee;
+ 	padding: 5px;
+ }
+.PRICE  input[type=number]
+ {
+ 	width: 45%;
+
+ 	border:1px solid #eee;
+ 	padding: 5px;
+ }
+
+.modal-footer .btn-primary
+{
+  background-color: transparent;
+  color: #FBB01F;
+    border:none!important;
+
+}
+.modal-footer .btn-danger
+{
+  background-color: transparent;
+  color: black;
+  border:none!important;
+}
