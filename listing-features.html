@@ -22,7 +22,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" id="style_sheet" href="css/skins/default.css">
     <!-- Favicon icon -->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/logoo.png" type="image/x-icon">
     <!-- Google fonts -->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800%7CPlayfair+Display:400,700%7CRoboto:100,300,400,400i,500,700">
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
@@ -38,36 +38,62 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-     <link rel="Stylesheet" type="text/css" href="css/carousel.css" />
       <link rel="Stylesheet" type="text/css" href="css/listing.css" />
-    <script type="text/javascript" src="scripts/jquery-1.4.4.min.js"></script>
-    <script type="text/javascript" src="scripts/jquery.mousewheel.min.js"></script>
-    <script type="text/javascript" src="scripts/jquery.carousel-1.1.min.js"></script>
         <script type="text/javascript" src="scripts/Listing.js"></script>
-
-    <script type="text/javascript" src="scripts/sample01.js"></script>
-    <script type="text/javascript" src="scripts/rent.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBwuev6Dj8Xvo7fePYs2YJ8KA84xxBCIUo&libraries=places"></script>
-    
-
+  >
 </head>
 
 <body>
      <div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none;right:0;z-index: 99999999;" id="rightMenu">
         <button onclick="closeRightMenu()" class="w3-bar-item w3-button w3-large closee" style="background: #ffb400;
     height: 40px;"> <img src="img/close-white.png" alt=""></button>
-         <a href="#" class="w3-bar-item w3-button">Link 1</a> 
-         <a href="#" class="w3-bar-item w3-button">Link 2</a> 
-         <a href="#" class="w3-bar-item w3-button">Link 3</a> 
+         <a href="#" class="w3-bar-item w3-button"><i class="fa fa-inbox" aria-hidden="true"></i> INBOX</a> 
+         <a href="#" class="w3-bar-item w3-button"><i class="fa fa-list" aria-hidden="true"></i> Listing</a> 
+         <a href="#" class="w3-bar-item w3-button"><i class="fa fa-address-card-o" aria-hidden="true"></i> Profile</a> 
+         <br>
+         <br>
+         <br>
+         <br>
+         <div class="container">
+        <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <a href="#">About us</a>
+          <br>
+          <br>
+         <a href="#">How NestHub Works</a>
+          <br>
+          <br>
+         <a href="#">FAQs</a>
+         <br>
+         <br>
+         <a href="#">Contact</a>
+         <br>
+         <br>
+         <a href="#">Blog</a>
+         <br>
+         <br>
+         <br>
+         <br>
+         <a href="#">Log out</a>
+          <br>
+          <br>
+         <a href="index-3">Go To NESTHUB.net  <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+         </div>
     </div>
   <!-- Main header start -->
     <header class="main-header">
         <div class="container">
             <nav class="navbar navbar-default navbar-fixed-top">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navigation" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                     <div class="navbar-header">
                     <button class="w3-button w3-teal w3-xlarge w3-right hidden-lg hidden-md" onclick="openRightMenu()">&#9776;</button>
                     <a href="index-3.html" class="logo"> <img src="img/footer-logo.png" alt="logo"> </a>
+                </div>
                    <div class="header-title"> 
                     <p>for <b>OFFICE PROVIDERS</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="index-3">Go To NESTHUB.net  <i class="fa fa-arrow-right" aria-hidden="true"></i></a></p> 
 
@@ -78,9 +104,10 @@
                 <div class="navbar-collapse collapse" role="navigation" aria-expanded="true" id="app-navigation">
                     
                     <ul class="nav navbar-nav navbar-right rightside-navbar">
-                        <li> <a href="signup.html" class="sign-in" style="color: black !important;"> Listing</a> </li>
+                        <li> <a href="listing.html" class="sign-in" style="color: black !important;"> <i class="fa fa-inbox" aria-hidden="true"></i> INBOX</a> </li>
+                        <li> <a href="listing.html" class="sign-in" style="color: black !important;"> <i class="fa fa-list" aria-hidden="true"></i> Listing</a> </li>
                         <li>
-                        <li> <a href="signup.html" class="sign-in" style="color: black !important;"> Profile</a> </li>
+                        <li> <a href="signup.html" class="sign-in" style="color: black !important;"> <i class="fa fa-address-card-o" aria-hidden="true"></i> Profile</a> </li>
                         <li>
                             <button class="w3-button w3-teal w3-xlarge w3-right" onclick="openRightMenu()">&#9776;</button>
                         </li>
@@ -107,7 +134,7 @@
                 <h3><b>Add Building</b></h3>
             </div>
             <div class="col-md-6 col-sm-12">
-            <button class="btn btn-danger">Save&Continue</button>
+            <button class="btn btn-danger" id="Continue">Save&Continue</button>
             </div>
         </div>
         
@@ -119,7 +146,6 @@
 <div class="tab">
 <div class="container">
     <div class="row">
-        <section>
         <div class="wizard">
             
                 <ul class="nav nav-wizard">
@@ -137,35 +163,40 @@
                     </li>
                     
                      <li class="disabled">
-                        <a href="#step4" data-toggle="tab">CONFIRM</a>
+                        <a href="#step4" data-toggle="tab">ADDITIONAL</a>
                     </li>
                 </ul>
             <form>
                 <div class="tab-content">
                     <div class="tab-pane active" id="step1">
+                     <div class="container">
                         <div class="row">
                         <div class=" name col-md-12 col-sm-12">
                             <small><b>BUILDING NAME*</b></small>
                         <p>Tenants will be able to search for you by this name.</p>
-                        <input type="text" placeholder="Enter  Building name........">
+                        <input type="text" id="name" placeholder="Enter  Building name........" required>
                         </div>
                         </div>
+                    </div>
+                        <div class="container">
                         <div class="row">
                         <div class=" address col-md-8 col-sm-8">
                             <small><b>FULL ADDRESS*</b></small>
                         <p>Number and Street Address</p>
-                        <input type="text" placeholder="Enter  Building Address.......">
+                        <input type="text" id="address" placeholder="Enter  Building Address.......">
                         </div>
                         <div class=" postal col-md-4 col-sm-4">
                             <small><b>Postcode</b></small>
-                        <input type="text" placeholder="EX. AA9AAAA" >
+                        <input type="text" id="postal" size="8" placeholder="EX. AA9-AAAA" >
                         </div>
                         </div>
+                        </div>
+                        <div class="container">
                         <div class="row">
                         <div class="welcom-message col-md-8 col-sm-8">
                             <small><b>WELCOME MESSAGE*</b></small>
                         <p>Give prospective tenants an introduction to your space.</p>
-                        <textarea></textarea>
+                        <textarea id="text1"></textarea>
                         </div>
                         <div class="tips col-md-4 col-sm-4">
                             <b>Some Tips</b>
@@ -175,19 +206,24 @@
                             <p>- Do not include information on price and availiblity. This comes later.</p>
                         </div>
                         </div>
-                        <div class="row">
+                    </div>
+                    <div class="container">
+                        <div class="row">     
                             <div class="about-us col-md-8 col-sm-8">
                                 <small><b>ABOUT US</b></small>
                                 <p>Tell us more about you as a company.</p>
                                 <textarea></textarea>
                             </div>
                             <div class=" tips col-md-4 col-sm-4">
+                                
                                 <b>Some Tips</b>
                                 <p>- What kind of company are you?</p>
                                 <p>- What is your vision and mission? What are your values?</p>
                                 <p>- How would you describe the culture of your space?</p>
                             </div>
                         </div>
+                        </div>
+                       <div class="container">
                         <div class="row">
                             <div class=" facilities col-md-12 col-sm-12">
                               <small><b>FACILITIES*</b></small>
@@ -212,12 +248,12 @@
                                 <input type="checkbox" class="cb" id="check7">
                                 <label> Fruit & Snacks </label><hr></br>
                                 <input type="checkbox" class="cb" id="check8">
-                                <label> 24 hr Access</b> </br>
+                                <label> 24 hr Access </label><hr></br>
                              </div>
                              <div class="col-md-3 col-sm-6">
                                 <input type="checkbox" class="cb" id="check9">
                                 <label> Breakout Space</label><hr> </br>
-                               <input type="checkbox" class="cb" id="check9">
+                               <input type="checkbox" class="cb" id="check10">
                                 <label> Lockers</label><hr> </br>
                                 <input type="checkbox" class="cb" id="check11">
                                <label> Bike Storage </label><hr></br>
@@ -230,7 +266,7 @@
                                 <input type="checkbox" class="cb" id="check15">
                                <label> Coffee & Tea </label><hr></br>
                                 <input type="checkbox" class="cb" id="check16">
-                               <label> Roof Terrace </label> </br>
+                               <label> Roof Terrace</label><hr> </br>
                              </div>
                              <div class="col-md-3 col-sm-6">
                                 <input type="checkbox" class="cb" id="check17">
@@ -266,38 +302,14 @@
                              </div>
                         </div>
                        </div>
-                       <!-- start feature building-->
-                <div class="feature-building">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12 col-md-12" >
-                                <a href="Listing.html"><i class="fa fa-arrow-left" aria-hidden="true"></i> Go To Building</a>
-                            </div>
-                            
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-sm-12">
-                                <h3><b>Add Building</b></h3>
-                            </div>
-                            <div class="col-md-6 col-sm-12">
-                            <button class="btn btn-danger">Save&Continue</button>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-                <br>
-                <br>
-                <br>
-<!-- end feature building-->
-
+                     </div>
                        </div> <!--end tab-->
                 
         <div class="tab-pane" id="step2">
             <div class="row">
                     <section class=" office col-md-12 ">
                         <div class="office-btn">
-                            <a class="btn btn-warning" href="#warningModal" data-toggle="modal"><i class="fa fa-plus-circle" aria-hidden="true"></i> ADD NEW OFFICE</a>
+                            <a class="btn btn-warning" id="addOffice" href="#warningModal" data-toggle="modal" ><i class="fa fa-plus-circle" aria-hidden="true"></i> ADD NEW OFFICE</a>
                         </div>
                                     <!-- Modal -->
                         <div class="modal fade" id="warningModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -327,21 +339,21 @@
                                     <div id="home" class="tab-pane fade in active">
                                        <div class="row">
                                             <div class="Av-desk  col-md-6 col-sm-6">
-                                                <small><b>DESKS AVAILABLE*</b></small>
+                                                <small><b>DESKS AVAILABLE<span class="mand">*</span></b></small>
                                             <p>How many desks would you like to rent out.</p>
                                             <input type="Number" name="desks-availabel">
                                             </div>
                                             <div class=" Av-desk col-md-6 col-sm-6">
-                                                <small><b>SQUARE FOOTAGE*</b></small>
+                                                <small><b>SQUARE FOOTAGE<span class="mand">*</span></b></small>
                                                 <p>If exact size is unknown, please provide an estimate.</p>
-                                            <input type="Number" name="SQUARE FOOTAGE">
+                                            <input type="Number" id="footage" name="SQUARE FOOTAGE">
                                             </div>
                                       </div>
                                       <div class="row">
                                             <div class="PRICE col-md-12 col-sm-12">
-                                                <small><b>PRICE (EX. VAT)*</b></small>
+                                                <small><b>PRICE (EX. VAT)<span class="mand">*</span></b></small>
                                                 <p>Price per office per month. Do not include VAT.</p>
-                                                <input type="Number" name="PRICE">
+                                                <input type="Number" id="price" name="PRICE">
                                         </div>
                                     </div>
                                      <div class="row">
@@ -382,20 +394,20 @@
                                 <!--tab2-->    <div id="menu1" class="tab-pane fade">
                                       <div class="row">
                                             <div class="Av-desk2  col-md-12 col-sm-12">
-                                                <small><b>DESKS AVAILABLE*</b></small>
+                                                <small><b>DESKS AVAILABLE<span class="mand">*</span></b></small>
                                             <p>How many desks would you like to rent out.</p>
-                                            <input type="Number" name="desks-availabel">
+                                            <input type="Number" id="available" name="desks-availabel"> 
                                             </div>
                                       </div>
                                       <div class="row">
                                             <div class="PRICE col-md-12 col-sm-12">
                                                 <small><b>PRICE (EX. VAT)*</b></small>
                                                 <p>Price per office per month. Do not include VAT.</p>
-                                                <input type="Number" name="PRICE">
+                                                <input type="Number" id="price"  name="PRICE">
                                         </div>
                                     </div>
                                      <div class="row">
-                                            <div class="Av-desk2  col-md-6 col-sm-6">
+                                            <div class="Av-desk  col-md-6 col-sm-6">
                                                 <small><b>MIN. TERM (MONTHS)</b></small>
                                             <input type="Number" name="MIN">
                                             </div>
@@ -490,39 +502,12 @@
                                                 <div class="clearfix"></div>
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-danger pull-left" data-dismiss="modal">Cancel</button>
-                                                    <button type="submit" class="btn btn-primary pull-right">Save</button>
+                                                    <button type="submit" id="save" class="btn btn-primary pull-right">Save</button>
                                                 </div>
                                             </div><!-- /.modal-content -->
                                         </div><!-- /.modal-dialog -->
                                     </div><!-- /.modal -->
-                                </section>
-                            </div>
-
-                            <!-- start feature building-->
-                <div class="feature-building">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12 col-md-12" >
-                                <a href="Listing.html"><i class="fa fa-arrow-left" aria-hidden="true"></i> Go To Building</a>
-                            </div>
-                            
-                        </div>
-                        <div class="row">
-                            
-                            <div class="col-md-12 col-sm-12">
-                            <button class="btn btn-danger">Save&Continue</button>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-<!-- end feature building-->
+                            </div>                          
                         </div>
                     
                     <div class="tab-pane" id="step3">
@@ -530,9 +515,17 @@
                             <div class="office col-md-12 col-sm-12">
                                   <div class="container p-y-1">
                                <div class="row m-b-1">
-                                <div class="col-sm-6 offset-sm-3">
+                                <div class="col-sm-12 offset-sm-12">
                                   <div class="form-group inputDnD">
+                                    <small ><b>IMAGES*</b></small>
+                                    <p>We recommend you add at least 3 images.</p>
+                                    <br>
+                                
+                                    <div class="imgUpload" >
+                                   <p> <b>Drag and drop file (PNG or JPEG) here or</b></p>
+                                    <br> 
                                     <input type="file" class="form-control-file text-success font-weight-bold" id="inputFile" accept="image/*" onchange="readUrl(this)" data-title="UPLOAD IMAGES">
+                                </div>
                                   </div>
                                 </div>
                               </div>
@@ -562,21 +555,65 @@
                 <div class="feature-building">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-12 col-md-12" >
-                                <a href="Listing.html"><i class="fa fa-arrow-left" aria-hidden="true"></i> Go To Building</a>
-                                 <button class="btn btn-lg btn-danger">FINISH</button>
+                            <div class=" guid col-md-12 col-md-12" >
+                                <h3>Guidance on listing highlights:</h3>
+                                <p>- Give it some personality!</p>
+                                <p>- What 3 things make your space unique?</p>
+                                <p>- Don't add info about price or availability.</p>
+                                <br>
                             </div>
-                        
+                        </div>
+                        <div class="row">
+                            <div class="highlight col-md-12 col-md-12" >
+                                <small><b>HIGHLIGHT ONE*</b></small>
+                                <p>Title</p>
+                                 <input type="text" id="highlight1">
+                                <p>Description</p>
+                                 <input type="text" id="desc1">
+                                  <br>
+                                  <br>
+                                  <br>
+                                <small><b>HIGHLIGHT Two*</b></small>
+                                <p>Title</p>
+                                 <input type="text" id="highlight2">
+                                <p>Description</p>
+                                 <input type="text" id="desc2">
+                                 <br>
+                                 <br>
+                                 <br>
+                                  <small><b>HIGHLIGHT Three*</b></small>
+                                <p>Title</p>
+                                 <input type="text" id="highlight3">
+                                <p>Description</p>
+                                 <input type="text" id="desc3">
+                                 <br>
+                                 <br>
+                                 <br>
+                                  <small><b>HIGHLIGHT Four*</b></small>
+                                <p>Title</p>
+                                 <input type="text" id="highlight4">
+                                <p>Description</p>
+                                 <input type="text" id="desc4">
+                                 <br>
+                                 <br>
+                                 <br>
+                                  <small><b>HIGHLIGHT Five*</b></small>
+                                <p>Title</p>
+                                 <input type="text" id="highlight5">
+                                <p>Description</p>
+                                 <input type="text" id="desc5">
+                                 <br>
+                                 <br>
+                                 <br>
+                                 <small><b>EXCLUSIVE OFFER</b></small>
+                                <p>A special offer with Hubble helps you get more prospective tenants (e.g. 10% off your first three months of rent and free welcome breakfast).</p>
+                                 <input type="text" id="ExcOffer">
+                            </div>
                         </div>
                         
                     </div>
                 </div>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
+                
 <!-- end feature building-->
                     </div>
                     <div class="clearfix"></div>
@@ -588,7 +625,27 @@
 </div>
 </div>
 <!-- end building tabs-->
-<
+  <!-- start feature building-->
+                <div class="feature-building">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6" >
+                                <br>
+                                <a href="Listing.html"><i class="fa fa-arrow-left" aria-hidden="true"></i> Go To Building</a>
+                            </div>
+                             <div class="col-md-6 col-sm-6">
+                            <button class="btn btn-danger" id="Continue">Save&Continue</button>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+<!-- end feature building-->
+
 
 
 
@@ -602,39 +659,78 @@
 
 
     <!-- Copy end right-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-sweetalert/1.0.1/sweetalert.css"></script>
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-sweetalert/1.0.1/sweetalert.min.js"></script>
     <script >
-        $(document).ready(function () {
-    
+ $(document).ready(function () {
+var count=0;
     //Wizard
     $('a[data-toggle="tab"]').on('show.bs.tab', function (e) {
-
+         
         var $target = $(e.target);
     
         if ($target.parent().hasClass('disabled')) {
             return false;
-
         }
     });
 
-    $(".btn-danger").click(function (e) {
-        alert('heel');
+    $(".btn-danger").click(function (e) { 
+        if ($('#name').val()=='' || $('#address').val()=='' || $('#text1').val()=='' || $('#postal').val()==''){
+        if ($('#name').val()=='') {
+               $('#name').css("border", "1px solid red");
+                }
+             if  ($('#name').val()!='')
+            {
+                $('#name').css("border", "1px solid #eee");
+            }
+         if ($('#address').val()=='') {
+               $('#address').css("border", "1px solid red");
+                }
+            if  ($('#address').val()!='')
+            {
+                $('#address').css("border", "1px solid #eee");
+            }
+                if ($('#text1').val()=='') {
+               $('#text1').css("border", "1px solid red");
+                }
+             if  ($('#text1').val()!='')
+            {
+                $('#text1').css("border", "1px solid #eee");
+            }
+                if ($('#postal').val()=='') {
+               $('#postal').css("border", "1px solid red");
+                }
+             if  ($('#postal').val()!='')
+            {
+                $('#postal').css("border", "1px solid #eee");
+            }
+        }
+        else{
         var $active = $('.wizard .nav-wizard li.active');
         $active.next().removeClass('disabled');
         nextTab($active);
-
+       }
+       
     });
+
+  $("#save").click(function (e) { 
+ if ($('#available').val()=='' || $('#footage').val()=='' || $('#price').val()=='') {
+  alert("Enter required Fields")
+    return false;
+}
+    return false;
+    });
+
+    
 });
-        function nextTab(elem) {
+
+function nextTab(elem) {
     $(elem).next().find('a[data-toggle="tab"]').click();
 }
+
     </script>
-    <script >
-         $(".dropzone").dropzone({
 
-  url: 'upload.php'
-
-})
-  
+<script>
         function openRightMenu() {
             document.getElementById("rightMenu").style.display = "block";
            document.getElementById("overlay").style.display = "block";
@@ -645,7 +741,6 @@
             document.getElementById("rightMenu").style.display = "none";
             document.getElementById("overlay").style.display = "none";
         }
-});
     </script>
 </body>
 </html>
