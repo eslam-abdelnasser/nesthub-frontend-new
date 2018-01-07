@@ -3686,14 +3686,14 @@ a:hover {
     display: inline-block;
     position: absolute;
     font-size: 13px;
-    bottom: 15px;
-    left: 15px;
+    bottom: -27px;
+    left: 35px;
     width: auto;
     background-color: #fff;
     color: #333;
     transition: .3s;
     cursor: pointer;
-    line-height: 28px
+    line-height: 20px
 }
 
 .mark,

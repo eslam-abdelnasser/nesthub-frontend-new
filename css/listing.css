@@ -3,6 +3,14 @@
 	    color:  red;
 
 }
+/*-- new--*/
+.w3-sidebar
+{
+	margin-top: -20px;
+	overflow-x: hidden;
+}
+
+/*-- new--*/
 #rightMenu
 {
 background-color: rgba(0,0,0,.9);
@@ -34,7 +42,7 @@ ul.navbar-right  li a
 {
 	margin-top: -21px;
 	width: 120px;
-	height: 30px;
+	height: 20px;
 }
 .logo:after
 {
@@ -192,15 +200,15 @@ ul.nav-wizard li.active a:focus {
  .tab-content .active .name input[type=text]
  {
  	width: 95%;
-
- 	border:1px solid #eee;
+ 	border:1px solid #294667;
  	padding: 5px;
+ 	border-radius: 5px;
  }
+
   .tab-content .active .address input[type=text]
  {
  	width: 95%;
-
- 	border:1px solid #eee;
+ 	border:1px solid #294667;
  	padding: 5px;
  }
 
@@ -208,7 +216,7 @@ ul.nav-wizard li.active a:focus {
  {
  	width: 95%;
 
- 	border:1px solid #eee;
+ 	border:1px solid #294667;
  	padding: 5px;
  }
  .tab-content .active .welcom-message
@@ -219,6 +227,8 @@ ul.nav-wizard li.active a:focus {
   {
   	width: 95%;
   	height: 150px;
+  	border:1px solid #294667;
+
   }
   .tab-content .active .tips
   {
@@ -233,6 +243,7 @@ ul.nav-wizard li.active a:focus {
   {
   	width: 95%;
   	height: 150px;
+  border:1px solid #294667;
   }
   .tab-content .active .facilities
   {
@@ -413,8 +424,8 @@ border:1px solid #FBB01F;
 .Av-desk input[type=number]
  {
  	width: 95%;
-
- 	border:1px solid #eee;
+border:1px solid #294667;
+border-radius: 5px;
  	padding: 5px;
  }
  .Av-desk2 
@@ -424,16 +435,16 @@ border:1px solid #FBB01F;
 .Av-desk2 input[type=number]
  {
  	width: 40%;
-
- 	border:1px solid #eee;
- 	padding: 5px;
+border:1px solid #294667;
+padding: 5px;
+border-radius: 5px;
  }
 .PRICE  input[type=number]
  {
  	width: 45%;
-
- 	border:1px solid #eee;
+    border:1px solid #294667;
  	padding: 5px;
+    border-radius: 5px;
  }
 
 .modal-footer .btn-primary
@@ -455,7 +466,8 @@ border:1px solid #FBB01F;
  width: 95%;
  height: 30px;
  margin-bottom: 10px;
- border:1px solid #eee;
+border:1px solid #294667;
+border-radius: 5px;
 }
 .guid
 {
