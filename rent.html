@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
-  <title>The Nest - Real Estate HTML Template</title>
+    <title>NESTHUB</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <!-- External CSS libraries -->
@@ -28,68 +29,296 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link rel="stylesheet" type="text/css" href="css/ie10-viewport-bug-workaround.css">
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script type="text/javascript" src="js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script type="text/javascript" src="js/ie-emulation-modes-warning.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script type="text/javascript" src="js/html5shiv.min.js"></script>
-    <script type="text/javascript" src="js/respond.min.js"></script>
-    <![endif]-->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-     <link rel="Stylesheet" type="text/css" href="css/carousel.css" />
-      <link rel="Stylesheet" type="text/css" href="css/rentcss.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="Stylesheet" type="text/css" href="css/carousel.css" />
+    <link rel="Stylesheet" type="text/css" href="css/rentcss.css" />
     <script type="text/javascript" src="scripts/jquery-1.4.4.min.js"></script>
     <script type="text/javascript" src="scripts/jquery.mousewheel.min.js"></script>
     <script type="text/javascript" src="scripts/jquery.carousel-1.1.min.js"></script>
     <script type="text/javascript" src="scripts/sample01.js"></script>
     <script type="text/javascript" src="scripts/rent.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBwuev6Dj8Xvo7fePYs2YJ8KA84xxBCIUo&libraries=places"></script>
+    <!-- Source: https://www.jssor.com -->
+    <script src="js/jssor.slider-26.9.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jssor_1_slider_init = function () {
+            var jssor_1_SlideshowTransitions = [
+                { $Duration: 800, x: 0.3, $During: { $Left: [0.3, 0.7] }, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+                { $Duration: 800, x: -0.3, $SlideOut: true, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+                { $Duration: 800, x: -0.3, $During: { $Left: [0.3, 0.7] }, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+                { $Duration: 800, x: 0.3, $SlideOut: true, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+                { $Duration: 800, y: 0.3, $During: { $Top: [0.3, 0.7] }, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+                { $Duration: 800, y: -0.3, $SlideOut: true, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+                { $Duration: 800, y: -0.3, $During: { $Top: [0.3, 0.7] }, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+                { $Duration: 800, y: 0.3, $SlideOut: true, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+                { $Duration: 800, x: 0.3, $Cols: 2, $During: { $Left: [0.3, 0.7] }, $ChessMode: { $Column: 3 }, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+                { $Duration: 800, x: 0.3, $Cols: 2, $SlideOut: true, $ChessMode: { $Column: 3 }, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+                { $Duration: 800, y: 0.3, $Rows: 2, $During: { $Top: [0.3, 0.7] }, $ChessMode: { $Row: 12 }, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+                { $Duration: 800, y: 0.3, $Rows: 2, $SlideOut: true, $ChessMode: { $Row: 12 }, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+                { $Duration: 800, y: 0.3, $Cols: 2, $During: { $Top: [0.3, 0.7] }, $ChessMode: { $Column: 12 }, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+                { $Duration: 800, y: -0.3, $Cols: 2, $SlideOut: true, $ChessMode: { $Column: 12 }, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+                { $Duration: 800, x: 0.3, $Rows: 2, $During: { $Left: [0.3, 0.7] }, $ChessMode: { $Row: 3 }, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+                { $Duration: 800, x: -0.3, $Rows: 2, $SlideOut: true, $ChessMode: { $Row: 3 }, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+                { $Duration: 800, x: 0.3, y: 0.3, $Cols: 2, $Rows: 2, $During: { $Left: [0.3, 0.7], $Top: [0.3, 0.7] }, $ChessMode: { $Column: 3, $Row: 12 }, $Easing: { $Left: $Jease$.$InCubic, $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+                { $Duration: 800, x: 0.3, y: 0.3, $Cols: 2, $Rows: 2, $During: { $Left: [0.3, 0.7], $Top: [0.3, 0.7] }, $SlideOut: true, $ChessMode: { $Column: 3, $Row: 12 }, $Easing: { $Left: $Jease$.$InCubic, $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+                { $Duration: 800, $Delay: 20, $Clip: 3, $Assembly: 260, $Easing: { $Clip: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+                { $Duration: 800, $Delay: 20, $Clip: 3, $SlideOut: true, $Assembly: 260, $Easing: { $Clip: $Jease$.$OutCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+                { $Duration: 800, $Delay: 20, $Clip: 12, $Assembly: 260, $Easing: { $Clip: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+                { $Duration: 800, $Delay: 20, $Clip: 12, $SlideOut: true, $Assembly: 260, $Easing: { $Clip: $Jease$.$OutCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 }
+            ];
+
+            var jssor_1_options = {
+                $AutoPlay: 1,
+                $Cols: 1,
+                $Align: 0,
+                $SlideshowOptions: {
+                    $Class: $JssorSlideshowRunner$,
+                    $Transitions: jssor_1_SlideshowTransitions,
+                    $TransitionsOrder: 1
+                },
+                $ArrowNavigatorOptions: {
+                    $Class: $JssorArrowNavigator$
+                },
+                $ThumbnailNavigatorOptions: {
+                    $Class: $JssorThumbnailNavigator$,
+                    $Cols: 5,
+                    $SpacingX: 5,
+                    $SpacingY: 5,
+                    $Align: 390
+                }
+            };
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+            /*#region responsive code begin*/
+            var MAX_WIDTH = 1350;
+            function ScaleSlider() {
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+
+                if (containerWidth) {
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+            ScaleSlider();
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*#endregion responsive code end*/
+        };
+    </script>
+    <style>
+        /* jssor slider loading skin spin css */
+
+        .jssorl-009-spin img {
+            animation-name: jssorl-009-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-009-spin {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+
+        .jssora106 {
+            display: block;
+            position: absolute;
+            cursor: pointer;
+        }
+
+        .jssora106 .c {
+            fill: #fff;
+            opacity: .3;
+        }
+
+        .jssora106 .a {
+            fill: none;
+            stroke: #000;
+            stroke-width: 350;
+            stroke-miterlimit: 10;
+        }
+
+        .jssora106:hover .c {
+            opacity: .5;
+        }
+
+        .jssora106:hover .a {
+            opacity: .8;
+        }
+
+        .jssora106.jssora106dn .c {
+            opacity: .2;
+        }
+
+        .jssora106.jssora106dn .a {
+            opacity: 1;
+        }
+
+        .jssora106.jssora106ds {
+            opacity: .3;
+            pointer-events: none;
+        }
+
+        .jssort101 .p {
+            position: absolute;
+            top: 0;
+            left: 0;
+            box-sizing: border-box;
+            background: #000;
+        }
+
+        .jssort101 .p .cv {
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 2px solid #000;
+            box-sizing: border-box;
+            z-index: 1;
+        }
+
+        .jssort101 .a {
+            fill: none;
+            stroke: #fff;
+            stroke-width: 400;
+            stroke-miterlimit: 10;
+            visibility: hidden;
+        }
+
+        .jssort101 .p:hover .cv,
+        .jssort101 .p.pdn .cv {
+            border: none;
+            border-color: transparent;
+        }
+
+        .jssort101 .p:hover {
+            padding: 2px;
+        }
+
+        .jssort101 .p:hover .cv {
+            background-color: rgba(0, 0, 0, 6);
+            opacity: .35;
+        }
+
+        .jssort101 .p:hover.pdn {
+            padding: 0;
+        }
+
+        .jssort101 .p:hover.pdn .cv {
+            border: 2px solid #fff;
+            background: none;
+            opacity: .35;
+        }
+
+        .jssort101 .pav .cv {
+            border-color: #fff;
+            opacity: .35;
+        }
+
+        .jssort101 .pav .a,
+        .jssort101 .p:hover .a {
+            visibility: visible;
+        }
+
+        .jssort101 .t {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+            opacity: .6;
+        }
+
+        .jssort101 .pav .t,
+        .jssort101 .p:hover .t {
+            opacity: 1;
+        }
+    </style>
 
 </head>
 
 <body>
-	 <div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none;right:0;z-index: 99999999;" id="rightMenu">
+    <div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none;right:0;z-index: 99999999;" id="rightMenu">
         <button onclick="closeRightMenu()" class="w3-bar-item w3-button w3-large closee" style="background: #ffb400;
-    height: 40px;"> <img src="img/close-white.png" alt=""></button>
-         <a href="#" class="w3-bar-item w3-button">Link 1</a> 
-         <a href="#" class="w3-bar-item w3-button">Link 2</a> 
-         <a href="#" class="w3-bar-item w3-button">Link 3</a> 
+    height: 40px;">
+            <img src="img/close-white.png" alt="">
+        </button>
+        <a href="#" class="w3-bar-item w3-button">Link 1</a>
+        <a href="#" class="w3-bar-item w3-button">Link 2</a>
+        <a href="#" class="w3-bar-item w3-button">Link 3</a>
     </div>
-  <!-- Main header start -->
+    <!-- Main header start -->
     <header class="main-header">
         <div class="container">
             <nav class="navbar navbar-default navbar-fixed-top">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navigation" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-                    <button class="w3-button w3-teal w3-xlarge w3-right hidden-lg hidden-md" onclick="openRightMenu()">&#9776;</button>
-                    <a href="index-3.html" class="logo"> <img src="img/footer-logo.png" alt="logo"> </a>
+
                 </div>
-               
+
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="navbar-collapse collapse" role="navigation" aria-expanded="true" id="app-navigation">
                     <ul class="nav navbar-nav">
-                   <li class="dropdown" style=" margin-right: 65px;"><a href="index-3.html" tabindex="0" data-toggle="dropdown" data-submenu="" aria-expanded="false" style="color: black !important;">Cairo <i class="fa fa-chevron-down"></i></a>
-                   <ul class="dropdown-menu">
-                            <li><a href="index.html" style="color: black !important;">Giza</a></li>
-                            <li><a href="index.html" style="color: black !important;">6th of October</a></li>
-                        </ul>
-                     </li>
-                  <li class=""> <a style="color: black !important;">About</a></li>
-                        <li> <a href="login.html" class="sign-in" style="color: black !important;"><i class="fa fa-sign-in"></i> Login</a> </li>
-                        <li> <a href="signup.html" class="sign-in" style="color: black !important;"><i class="fa fa-user"></i> Register</a> </li>
-                        <li> <a href="signup.html" class="sign-in" style="color: black !important;"><i class="fa fa-search"></i> Search for office</a> </li>
+                        <li>
+                            <a href="index-3.html" class="logo">
+                                <img src="img/footer-logo.png" alt="logo"> </a>
+                        </li>
+                        <li class="dropdown" style=" margin-right: 65px;">
+                            <a href="index-3.html" tabindex="0" data-toggle="dropdown" data-submenu="" aria-expanded="false" style="color: black !important;">Cairo
+                                <i class="fa fa-chevron-down"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="index.html" style="color: black !important;">Giza</a>
+                                </li>
+                                <li>
+                                    <a href="index.html" style="color: black !important;">6th of October</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a style="color: black !important;">About</a>
+                        </li>
+                        <li>
+                            <a href="login.html" class="sign-in" style="color: black !important;">
+                                <i class="fa fa-sign-in"></i> Login</a>
+                        </li>
+                        <li>
+                            <a href="signup.html" class="sign-in" style="color: black !important;">
+                                <i class="fa fa-user"></i> Register</a>
+                        </li>
+                        <li>
+                            <a href="signup.html" class="sign-in" style="color: black !important;">
+                                <i class="fa fa-search"></i> Search for office</a>
+                        </li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right rightside-navbar">
-                        <li> <a href="submit-property.html" class="button">
-                            Submit Property
-                        </a> </li>
-                        
+                        <li>
+                            <a href="submit-property.html" class="button">
+                                Submit Property
+                            </a>
+                        </li>
+
                         <li>
                             <button class="w3-button w3-teal w3-xlarge w3-right" onclick="openRightMenu()">&#9776;</button>
                         </li>
-                        
+
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -99,615 +328,992 @@
     </header>
     <!-- Main header end -->
     <!-- carousel -->
-   <div  class="column12container main_container">
-   	    	<div class="background">
-
-<div class="column12">
-
-<div class="carousel"> <!-- BEGIN CONTAINER -->
-    
-    <div class="slides"> <!-- BEGIN CAROUSEL -->
-    
-        <div> <!-- SLIDE ITEM -->
-            <a href="#">
-                <img src="images/slide-1.jpg"/>
-            </a>            
+    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:480px;overflow:hidden;visibility:hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
         </div>
-        
-        <div>
-            <a href="#">
-                <img src="images/slide-2.jpg"/>
-            </a>
-        </div>
-        
-        <div>
-            <a href="#">
-                <img src="images/slide-3.jpg" />
-            </a>
-        </div>
-        
-        <div>
-            <a href="#">
-                <img src="images/slide-4.jpg" />
-            </a>
-        </div>
-        
-        <div>
-            <a href="#">
-                <img src="images/slide-5.jpg"/>
-            </a>
-        </div>
-        
-        <div>
-            <a href="#">
-                <img src="images/slide-6.jpg"/>
-            </a>
-        </div>
-        
-        <div>            
-                <img src="images/slide-7.jpg"/>
-        </div>
-                        
-    </div> <!-- END SLIDES -->
-       
-</div> <!-- END CAROUSEL -->
-</div>
-</div>
-</div>
-
-<!-- start first-section-->
-<section class="content">
-  <div class="row" >
-    <div class="container">
-      <!--start left part-->
-    <div class="col-md-8 ">
-    <div class="left">
-      <div class="Home">
-        <div class="row wow bounceInLeft" >
-           <div class="col-md-8 ">
-           <h2>Second Home - London Fields</h2>
-        </div>
-       <div class="col-md-4 ">
-         <button class="btn btn-lg btn-primary shortlist" ><i class="fa fa-heart" aria-hidden="true"></i>
-            SHORTLIST</button>
-       </div>
-        </div>
-            <p><i class="fa fa-map-marker" aria-hidden="true"></i>E8, Cairo</p>
-            <br>
-            <br>
-            <span>Welcome</span>
-            <hr>
-            <span><b>Opnening 2018</b></span>
-            <p >
-              The most magical & innovative working environment in the heart of London Fields, Second Home enables parents to combine work & life easier than ever before. The space provides private studios & flexible workspaces for teams of up to 50 - all surrounded by curves, natural light & thousands of plants & trees. Members will enjoy access to our world-class Cultural Programme, Member-only Be Better sessions & weekly wellness programme, as well as on-site creche & family-friendly public areas
-            </p>
-            <br>
-             <p >Our space in three words:</p>
-            <span>Plants, Creativity, Community</span>
-            <p >What we love about our space:</p>
-            <span>Iconic Architecture, Amazing Community, World-Class Cultural Programme</span>
-            <br>
-            <br>
-      </div>
-      <!-- LOCATION-->
-             <div class="Location">
-               <span><b>Location</b></span>
-               <hr>
-            <div class="col-md-9 mapId wow bounceInLeft " data-wow-delay="1.2s">
-                <a href="https://www.google.com.eg/maps?source=tldsi&hl=ar"><img src="images/staticmap.png" /></a>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:380px;overflow:hidden;">
+            <div data-p="170.00">
+                <img data-u="image" src="images/slide-1.jpg" />
+                <img data-u="thumb" src="images/slide-1.jpg" />
             </div>
-            <div class="col-md-3 wow bounceInRight">
-            	<p><b>Down Town</b></p>
-            	<p>12 min Walk</p>
+            <div data-p="170.00">
+                <img data-u="image" src="images/slide-2.jpg" />
+                <img data-u="thumb" src="images/slide-2.jpg" />
             </div>
-            </div><!--END LOCATION-->
-            <!-- OFFICE-->
-            <div class="office-details">
-            	<div class="container">
-            	  <div class="col-md-6 wow bounceInLeft " data-wow-delay="1.8s">
-                  <span><b>Office Details</b></span>
-                    <hr>
-                    <ul class="nav nav-tabs">
-		                   <li class="active" ><a data-toggle="tab" href="#home">Hot Desk <br><small>250LE per Month</small></a></li>
-		                   <li><a data-toggle="tab" href="#menu1">Fixed Desk<br><small>350LE per Month</small></a> </li>
-		                   <li><a data-toggle="tab" href="#menu2">Private Office <br><small>450LE per Month</small></a></li>
-		                </ul>
-                    <!--tab1-->
-		  <div class="tab-content " >
-        <div id="home" class="tab-pane fade in active ">
-              <img src="images/slide-1.jpg">
-              <br>
-              <br>
-            <div class="main-content">
-                <div class="row">
-                  <div class="col-md-2">
-                  <span> <i class="fa fa-check" aria-hidden="true" ></i></span>
-                </div>   
-                <div class="col-md-10 availableDesk">
-                  <b>250LE per month</b><br>
-                <small>Desks available: 100</small>  <br>
-                <a href="#">HIDE DETAILS</a>
+            <div data-p="170.00">
+                <img data-u="image" src="images/slide-3.jpg" />
+                <img data-u="thumb" src="images/slide-3.jpg" />
+            </div>
+            <div data-p="170.00">
+                <img data-u="image" src="images/slide-4.jpg" />
+                <img data-u="thumb" src="images/slide-4.jpg" />
+            </div>
+            <div data-p="170.00">
+                <img data-u="image" src="images/slide-5.jpg" />
+                <img data-u="thumb" src="images/slide-5.jpg" />
+            </div>
+            <div data-p="170.00">
+                <img data-u="image" src="images/slide-6.jpg" />
+                <img data-u="thumb" src="images/slide-6.jpg" />
+            </div>
+            <div data-p="170.00">
+                <img data-u="image" src="images/slide-2.jpg" />
+                <img data-u="thumb" src="images/slide-2.jpg" />
+            </div>
+            <div data-p="170.00">
+                <img data-u="image" src="images/slide-3.jpg" />
+                <img data-u="thumb" src="images/slide-3.jpg" />
+            </div>
+            <div data-p="170.00">
+                <img data-u="image" src="images/slide-4.jpg" />
+                <img data-u="thumb" src="images/slide-4.jpg" />
+            </div>
+            <div data-p="170.00">
+                <img data-u="image" src="images/slide-5.jpg" />
+                <img data-u="thumb" src="images/slide-5.jpg" />
+            </div>
+        </div>
+        <!-- Thumbnail Navigator -->
+        <div data-u="thumbnavigator" class="jssort101" style="position:absolute;left:0px;bottom:0px;width:980px;height:100px;background-color:#000;"
+            data-autocenter="1" data-scale-bottom="0.75">
+            <div data-u="slides">
+                <div data-u="prototype" class="p" style="width:190px;height:90px;">
+                    <div data-u="thumbnailtemplate" class="t"></div>
+                    <svg viewbox="0 0 16000 16000" class="cv">
+                        <circle class="a" cx="8000" cy="8000" r="3238.1"></circle>
+                        <line class="a" x1="6190.5" y1="8000" x2="9809.5" y2="8000"></line>
+                        <line class="a" x1="8000" y1="9809.5" x2="8000" y2="6190.5"></line>
+                    </svg>
                 </div>
-                </div>
-      	         <br>
-      	         <br>
-      	         <hr>
-      	     <div class="data">
-      	        <div class="col-md-1"><i class="fa fa-circle" aria-hidden="true" ></i></div>
-                <div class="col-md-11 Paragraphs"><p>Roaming hot desks, based on the first floor</p></div>
-      	   
-                <div class="col-md-1"><i class="fa fa-circle" aria-hidden="true"></i></div>  
-                <div class="col-md-11 Paragraphs"><p>Flexible access to our collaborative workspaces</p></div>
-
-      	        <div class="col-md-1"><i class="fa fa-circle" aria-hidden="true"></i> </div>    
-                <div class="col-md-11 Paragraphs"><p>Full access to all Second Home services and community, including exclusive Be Better education </p></div>
-
-               <div class="col-md-1"><i class="fa fa-circle" aria-hidden="true"></i> </div> 
-               <div class="col-md-11 Paragraphs"><p>Suitable for individuals and small teams</p></div>
-          	</div>
-      	 </div>
-    </div><!--end tab1-->
-    <!--tab2-->
-    <div id="menu1" class="tab-pane fade">
-      <div class="main-content">
-      	 <div class="row">
-            <div class="col-md-2">
-                <span> <i class="fa fa-check" aria-hidden="true" ></i></span>
-            </div>   
-            <div class="col-md-10 availableDesk">
-              <b>350LE per month</b><br>
-              <small>Desks available: 100</small>  <br>
-              <a href="#">HIDE DETAILS</a>
             </div>
-          </div>
-      	<br>
-      	<br>
-      	  <hr>
-      	<div class="data">
-                <div class="col-md-1"><i class="fa fa-circle" aria-hidden="true" ></i></div>
-                <div class="col-md-11 Paragraphs"><p>Roaming hot desks, based on the first floor</p></div>
-           
-                <div class="col-md-1"><i class="fa fa-circle" aria-hidden="true"></i></div>  
-                <div class="col-md-11 Paragraphs"><p>Flexible access to our collaborative workspaces</p></div>
-
-                <div class="col-md-1"><i class="fa fa-circle" aria-hidden="true"></i> </div>    
-                <div class="col-md-11 Paragraphs"><p>Full access to all Second Home services and community, including exclusive Be Better education </p></div>
-
-               <div class="col-md-1"><i class="fa fa-circle" aria-hidden="true"></i> </div> 
-               <div class="col-md-11 Paragraphs"><p>Suitable for individuals and small teams</p></div>
-            </div>
-      	</div>
-    </div> <!-- end tab2-->
-    <!--tab3-->
-    <div id="menu2" class="tab-pane fade">
-      <div class="main-content">
-      	<div class="row">
-            <div class="col-md-2">
-                <span> <i class="fa fa-check" aria-hidden="true" ></i></span>
-            </div>   
-            <div class="col-md-10 availableDesk">
-              <b>450LE per month</b><br>
-              <small>Desks available: 100</small>  <br>
-              <a href="#">HIDE DETAILS</a>
-            </div>
-          </div>
-      	<br>
-      	<br>
-      	  <hr>
-      	<div class="data">
-                <div class="col-md-1"><i class="fa fa-circle" aria-hidden="true" ></i></div>
-                <div class="col-md-11 Paragraphs"><p>Roaming hot desks, based on the first floor</p></div>
-           
-                <div class="col-md-1"><i class="fa fa-circle" aria-hidden="true"></i></div>  
-                <div class="col-md-11 Paragraphs"><p>Flexible access to our collaborative workspaces</p></div>
-
-                <div class="col-md-1"><i class="fa fa-circle" aria-hidden="true"></i> </div>    
-                <div class="col-md-11 Paragraphs"><p>Full access to all Second Home services and community, including exclusive Be Better education </p></div>
-
-               <div class="col-md-1"><i class="fa fa-circle" aria-hidden="true"></i> </div> 
-               <div class="col-md-11 Paragraphs"><p>Suitable for individuals and small teams</p></div>
-            </div>
-      </div>
-    </div> <!-- end tab3-->   
-  
-  </div><!--end tabContent -->
- </div>
- </div>
- </div><!-- end office-->
-           
-		</div><!-- end left part-->
-  </div>
-		<!--rigth part-->
-    <div class="col-md-4" >
-    <div class="right "  >
-          <!-- dropdown-->
-       <div class="part1 wow flipInX " data-wow-delay="1.8s" >
-        <div class="row ">
-  	  <div class="col-md-12 btn-group">
-        <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown">
-           <small class="sm" style="float: left;"><b>Hot Desk |250LE p/m</b></small><br><small>Desks available:100    </small>   <span  >Available Now</span> <span class="caret"></span>
-       </button>
-       <ul class="dropdown-menu" role="menu">
-           <li><a href="#"><small><b>Hot Desk |250LE p/m</b></small><br><small>Desks available:100    </small>   <span  >Available Now</span></a></li>
-           <li><a href="#"><small ><b>Hot Desk |250LE p/m</b></small><br><small>Desks available:100    </small>   <span>Available Now</span></a></li>
-           <li><a href="#"><small><b>Hot Desk |250LE p/m</b></small><br><small>Desks available:100    </small>   <span>Available Now</span></a></li>
-            <li class="divider"></li>
-            <li><a href="#"><small><b>Hot Desk |250LE p/m</b></small><br><small>Desks available:100    </small>   <span>Available Now</span></a></li>
-       </ul>
-    </div> 
+        </div>
+        <!-- Arrow Navigator -->
+        <div data-u="arrowleft" class="jssora106" style="width:55px;height:55px;top:162px;left:30px;" data-scale="0.75">
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <circle class="c" cx="8000" cy="8000" r="6260.9"></circle>
+                <polyline class="a" points="7930.4,5495.7 5426.1,8000 7930.4,10504.3 "></polyline>
+                <line class="a" x1="10573.9" y1="8000" x2="5426.1" y2="8000"></line>
+            </svg>
+        </div>
+        <div data-u="arrowright" class="jssora106" style="width:55px;height:55px;top:162px;right:30px;" data-scale="0.75">
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <circle class="c" cx="8000" cy="8000" r="6260.9"></circle>
+                <polyline class="a" points="8069.6,5495.7 10573.9,8000 8069.6,10504.3 "></polyline>
+                <line class="a" x1="5426.1" y1="8000" x2="10573.9" y2="8000"></line>
+            </svg>
+        </div>
     </div>
-    <!--end first button-->
-    <div class="row">
-      <div class="col-md-12">
-    <button class="btn btn-default btn-lg colored second" type="button" value="Show/Hide" onClick="showHideDiv('form1')">Request more Info</button>
+    <script type="text/javascript">jssor_1_slider_init();</script>
+    <!-- #endregion Jssor Slider End -->
+    <!-- END CAROUSEL -->
 
-        <div class="form1" id="form1" data-wow-delay="0.4s" style="display: none;" >
-        <div class="loginmodal-container">
-          <h1>Create an account to request more info</h1><br>
-          <form>
-          <input type="email" name="email" placeholder="Email">
-          <input type="text" name="name" placeholder="Full Name">
-          <input type="password" name="pass" placeholder="Password">
-          </form>
-           <small >Or continue with:</small> <br>
-          <div class="social">
-              <div class="col-lg-4 col-md-4 ">
-          <i class="fa fa-facebook" aria-hidden="true"></i>
-          <small> Facebook</small>
 
-        </div>
-        <div class="col-lg-4 col-md-4 " >
-          <i class="fa fa-linkedin" aria-hidden="true"></i>
-          <small> linkedIn</small>
-        </div>
-         <div class="col-lg-4 col-md-4">
-           <i class="fa fa-google-plus" aria-hidden="true"></i>
-            <small> Google</small>
-         </div>
-          </div>
-          <br/>
-         <button class="btn btn-default btn-md slide-button" type="button">Request more Info</button>
-           <br/>
-          <div class="help">Already have a Hubble account?<a href="#">login</a></div><br>
-          <div class="help">Forgot your password?<a href="#">Reset </a></div>
-        </div>
-      </div> 
-  </div>
-  </div> <!--end second button-->
-  <div class="row">
-    <div class="col-md-12">
-    <button class="btn btn-default btn-lg n-colored third" type="button">Request more Info</button>
-    </div>
-  </div>
-		</div>
-     <!--end part1-->
-    <!--part2-->
-		<div class="part2 row wow flipInX " data-wow-delay="1.6s" >
-      <div class="col-md-12">
-			<p><i class="fa fa-check" aria-hidden="true"></i> <b>100% free service</b></p>
-			<p><i class="fa fa-check" aria-hidden="true"></i><b> Zero commitment</b></p>
-			<p><i class="fa fa-check" aria-hidden="true"></i><b> Schedule a viewing instantly</b></p>
-		</div>
-    </div><!--end part2-->
-    <!--part3-->
-		<div class="part3 row wow flipInX " data-wow-delay="1.4s">
-      <div class="col-md-12">
-			<span ><i class="fa fa-tags" aria-hidden="true" ></i>&nbsp; &nbsp;<b > Exclusive Offer</b></span>
-			<p >
-				10% off your first three months of membership when you join Second Home through Hubble, plus a bespoke roundtable breakfast with the Second Home community focused on your business.
-			</p>
-      </div>
-		</div><!--end part3-->
-    <div class="part3 row wow flipInX " data-wow-delay="1.2s">
-      <div class="col-md-12">
-      <span ><i class="fa fa-tags" aria-hidden="true" ></i>&nbsp; &nbsp;<b > Other Offers</b></span>
-      <p >
-        20% off your first three months of membership when you join Second Home through Hubble, plus a bespoke roundtable breakfast with the Second Home community focused on your business.
-      </p>
-      </div>
-    </div><!--end part4-->
-    <div class="part5 " >
-        <div class="col-md-12">
-        <h4> Take Tour</h4>
-        <hr>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-      
-        <video width="100%" controls>
-  <source src="images/Co-working and space design - Hub Australia.mp4" type="video/mp4">
-  <source src="mov_bbb.ogg" type="video/ogg">
-</video>
-  </div>
-      </div>
-    </div><!--end part5-->
-    <div class="part6 row">
-        <div class="col-md-12 ">
-        <h4>Gallary</h4>
-        <hr>
-      </div>
-      <div class="row">
-        <div class="col-md-4  wow fadeInLeft" data-wow-delay="1.8s">
-          <img src="images/slide-1.jpg">
-        </div>
-        <div class="col-md-4  wow fadeInLeft" data-wow-delay="1.4s">
-          <img src="images/slide-2.jpg">
-        </div>
-        <div class="col-md-4 wow fadeInLeft" data-wow-delay="0.8s">
-          <img src="images/slide-3.jpg">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4  wow flipInY" data-wow-delay="2s">
-          <img src="images/slide-4.jpg">
-        </div>
-        <div class="col-md-4 wow flipInY" data-wow-delay="2.4s">
-          <img src="images/slide-5.jpg">
-        </div>
-        <div class="col-md-4 wow flipInY" data-wow-delay="2.8s">
-          <img src="images/slide-6.jpg">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 wow fadeInLeft" data-wow-delay="0.4s">
-          <img src="images/slide-1.jpg">
-        </div>
-        <div class="col-md-4 wow fadeInLeft" data-wow-delay="0.2s">
-          <img src="images/slide-5.jpg">
-        </div>
-        <div class="col-md-4 fadeInLeft" data-wow-delay="0.1s">
-          <img src="images/slide-3.jpg">
-        </div>
-      </div>
-     
-    </div><!--end part6-->
-		  </div>
-      </div><!--end right part  -->
-	
+    <!-- start first-section-->
+    <section class="content" style="margin-top:120px; ">
+        <div class="row">
+            <div class="container">
+                <!--start left part-->
+                <div class="col-md-8 ">
+                    <div class="left">
+                        <div class="Home">
+                            <div class="row">
+                                <div class="col-md-8 ">
+                                    <h2>Second Home - London Fields</h2>
+                                </div>
+                                <div class="col-md-4 ">
+                                    <button class="btn btn-lg btn-primary shortlist">
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                        SHORTLIST</button>
+                                </div>
+                            </div>
+                            <p>
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>E8, Cairo</p>
+                            <br>
+                            <br>
+                            <span>Welcome</span>
+                            <hr>
+                            <span>
+                                <b>Opnening 2018</b>
+                            </span>
+                            <p>
+                                The most magical & innovative working environment in the heart of London Fields, Second Home enables parents to combine work
+                                & life easier than ever before. The space provides private studios & flexible workspaces
+                                for teams of up to 50 - all surrounded by curves, natural light & thousands of plants & trees.
+                                Members will enjoy access to our world-class Cultural Programme, Member-only Be Better sessions
+                                & weekly wellness programme, as well as on-site creche & family-friendly public areas
+                            </p>
+                            <br>
+                            <p>Our space in three words:</p>
+                            <span>Plants, Creativity, Community</span>
+                            <p>What we love about our space:</p>
+                            <span>Iconic Architecture, Amazing Community, World-Class Cultural Programme</span>
+                            <br>
+                            <br>
+                        </div>
+                        <!-- LOCATION-->
+                        <div class="Location">
+                            <span>
+                                <b>Location</b>
+                            </span>
+                            <hr>
+                            <div class="col-md-9 mapId ">
+                                <a href="https://www.google.com.eg/maps?source=tldsi&hl=ar">
+                                    <img src="images/staticmap.png" />
+                                </a>
+                            </div>
+                            <div class="col-md-3 ">
+                                <p>
+                                    <b>Down Town</b>
+                                </p>
+                                <p>12 min Walk</p>
+                            </div>
+                        </div>
+                        <!--END LOCATION-->
+                        <!-- OFFICE-->
+                        <div class="office-details">
+                            <div class="container">
+                                <div class="col-md-6 ">
+                                    <span>
+                                        <b>Office Details</b>
+                                    </span>
+                                    <hr>
+                                    <ul class="nav nav-tabs">
+                                        <li class="active">
+                                            <a data-toggle="tab" href="#home">Hot Desk
+                                                <br>
+                                                <small>250LE per Month</small>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a data-toggle="tab" href="#menu1">Fixed Desk
+                                                <br>
+                                                <small>350LE per Month</small>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a data-toggle="tab" href="#menu2">Private Office
+                                                <br>
+                                                <small>450LE per Month</small>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <!--tab1-->
+                                    <div class="tab-content ">
+                                        <div id="home" class="tab-pane fade in active ">
+                                            <img src="images/slide-1.jpg">
+                                            <br>
+                                            <br>
+                                            <div class="main-content">
+                                                <div class="row">
+                                                    <div class="col-md-2">
+                                                        <span>
+                                                            <i class="fa fa-check" aria-hidden="true"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div class="container">
+                                                        <div class="col-md-10 availableDesk">
+                                                            <b>250LE per month</b>
+                                                            <br>
+                                                            <small>Desks available: 100</small>
+                                                            <br>
+                                                            <a href="#">HIDE DETAILS</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <br>
+                                                <br>
+                                                <hr>
+                                                <div class="data">
+                                                    <div class="col-md-1">
+                                                        <i class="fa fa-circle" aria-hidden="true"></i>
+                                                    </div>
+                                                    <div class="col-md-11 Paragraphs">
+                                                        <p>Roaming hot desks, based on the first floor</p>
+                                                    </div>
 
-</div>
-  </div>
-  </section>
-   <!-- start Facilites-->
-            <div class="Facilies wow slideInUp" data-wow-delay="1s" >
-              <div class="container">
-                <div class="col-md-12">
-                 <span ><b>Facilities</b></span>
-              <hr>
-              <!-- start busines-->
-                <div class="bussines" >
-                  <div><span ><b>Business</b></span></div>
-                <br>
-                <div class="col-md-3 bus1" >
-                  <div><i class="fa fa-times" aria-hidden="true"></i><span class="gray">24hr Access</span></div>
-                   <br>
-                  <div><i class="fa fa-check" aria-hidden="true"></i><span>Furniture</span></div> 
-                   <br>
-                  <div><i class="fa fa-check" aria-hidden="true"></i><span>Phone Booths</span></div>
-                   <br>
-                  <div><i class="fa fa-check" aria-hidden="true"></i><span>Trading Address</span></div>
+                                                    <div class="col-md-1">
+                                                        <i class="fa fa-circle" aria-hidden="true"></i>
+                                                    </div>
+                                                    <div class="col-md-11 Paragraphs">
+                                                        <p>Flexible access to our collaborative workspaces</p>
+                                                    </div>
 
+                                                    <div class="col-md-1">
+                                                        <i class="fa fa-circle" aria-hidden="true"></i>
+                                                    </div>
+                                                    <div class="col-md-11 Paragraphs">
+                                                        <p>Full access to all Second Home services and community, including
+                                                            exclusive Be Better education </p>
+                                                    </div>
+
+                                                    <div class="col-md-1">
+                                                        <i class="fa fa-circle" aria-hidden="true"></i>
+                                                    </div>
+                                                    <div class="col-md-11 Paragraphs">
+                                                        <p>Suitable for individuals and small teams</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end tab1-->
+                                        <!--tab2-->
+                                        <div id="menu1" class="tab-pane fade">
+                                            <div class="main-content">
+                                                <div class="row">
+                                                    <div class="col-md-2">
+                                                        <span>
+                                                            <i class="fa fa-check" aria-hidden="true"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div class="col-md-10 availableDesk">
+                                                        <b>350LE per month</b>
+                                                        <br>
+                                                        <small>Desks available: 100</small>
+                                                        <br>
+                                                        <a href="#">HIDE DETAILS</a>
+                                                    </div>
+                                                </div>
+                                                <br>
+                                                <br>
+                                                <hr>
+                                                <div class="data">
+                                                    <div class="col-md-1">
+                                                        <i class="fa fa-circle" aria-hidden="true"></i>
+                                                    </div>
+                                                    <div class="col-md-11 Paragraphs">
+                                                        <p>Roaming hot desks, based on the first floor</p>
+                                                    </div>
+
+                                                    <div class="col-md-1">
+                                                        <i class="fa fa-circle" aria-hidden="true"></i>
+                                                    </div>
+                                                    <div class="col-md-11 Paragraphs">
+                                                        <p>Flexible access to our collaborative workspaces</p>
+                                                    </div>
+
+                                                    <div class="col-md-1">
+                                                        <i class="fa fa-circle" aria-hidden="true"></i>
+                                                    </div>
+                                                    <div class="col-md-11 Paragraphs">
+                                                        <p>Full access to all Second Home services and community, including
+                                                            exclusive Be Better education </p>
+                                                    </div>
+
+                                                    <div class="col-md-1">
+                                                        <i class="fa fa-circle" aria-hidden="true"></i>
+                                                    </div>
+                                                    <div class="col-md-11 Paragraphs">
+                                                        <p>Suitable for individuals and small teams</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- end tab2-->
+                                        <!--tab3-->
+                                        <div id="menu2" class="tab-pane fade">
+                                            <div class="main-content">
+                                                <div class="row">
+                                                    <div class="col-md-2">
+                                                        <span>
+                                                            <i class="fa fa-check" aria-hidden="true"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div class="col-md-10 availableDesk">
+                                                        <b>450LE per month</b>
+                                                        <br>
+                                                        <small>Desks available: 100</small>
+                                                        <br>
+                                                        <a href="#">HIDE DETAILS</a>
+                                                    </div>
+                                                </div>
+                                                <br>
+                                                <br>
+                                                <hr>
+                                                <div class="data">
+                                                    <div class="col-md-1">
+                                                        <i class="fa fa-circle" aria-hidden="true"></i>
+                                                    </div>
+                                                    <div class="col-md-11 Paragraphs">
+                                                        <p>Roaming hot desks, based on the first floor</p>
+                                                    </div>
+
+                                                    <div class="col-md-1">
+                                                        <i class="fa fa-circle" aria-hidden="true"></i>
+                                                    </div>
+                                                    <div class="col-md-11 Paragraphs">
+                                                        <p>Flexible access to our collaborative workspaces</p>
+                                                    </div>
+
+                                                    <div class="col-md-1">
+                                                        <i class="fa fa-circle" aria-hidden="true"></i>
+                                                    </div>
+                                                    <div class="col-md-11 Paragraphs">
+                                                        <p>Full access to all Second Home services and community, including
+                                                            exclusive Be Better education </p>
+                                                    </div>
+
+                                                    <div class="col-md-1">
+                                                        <i class="fa fa-circle" aria-hidden="true"></i>
+                                                    </div>
+                                                    <div class="col-md-11 Paragraphs">
+                                                        <p>Suitable for individuals and small teams</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- end tab3-->
+
+                                    </div>
+                                    <!--end tabContent -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end office-->
+
+                    </div>
+                    <!-- end left part-->
                 </div>
-                <div class="col-md-3 bus1">
-                 <div><i class="fa fa-check" aria-hidden="true"></i><span>Breakout Space</span></div> 
-                  <br>
-                 <div><i class="fa fa-times" aria-hidden="true"></i><span class="gray">Inventory Storage</span>
-                 </div>
-                  <br>
-                 <div><i class="fa fa-check" aria-hidden="true"></i><span>Printing</span></div>
-                  <br>
-                 <div><i class="fa fa-check" aria-hidden="true"></i><span>Utilities Address</span></div>
-               </div>
-                 <div class="col-md-3 bus2">
-               <div><i class="fa fa-check" aria-hidden="true"></i><span>Cleaning</span></div> 
-               <br>
-                <div><i class="fa fa-check" aria-hidden="true"></i><span>Mailing</span></div>
-                <br>
-                <div><i class="fa fa-check" aria-hidden="true"></i><span>Reception</span></div>
-                <br>
-                <div><i class="fa fa-check" aria-hidden="true"></i><span>Wifi</span></div>
+                <!--rigth part-->
+                <div class="col-md-4">
+                    <div class="right ">
+                        <!-- dropdown-->
+                        <div class="part1">
+                            <div class="row ">
+                                <div class="col-md-12 btn-group">
+                                    <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown">
+                                        <small class="sm" style="float: left;">
+                                            <b>Hot Desk |250LE p/m</b>
+                                        </small>
+                                        <br>
+                                        <small>Desks available:100 </small>
+                                        <span>Available Now</span>
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li>
+                                            <a href="#">
+                                                <small>
+                                                    <b>Hot Desk |250LE p/m</b>
+                                                </small>
+                                                <br>
+                                                <small>Desks available:100 </small>
+                                                <span>Available Now</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <small>
+                                                    <b>Hot Desk |250LE p/m</b>
+                                                </small>
+                                                <br>
+                                                <small>Desks available:100 </small>
+                                                <span>Available Now</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <small>
+                                                    <b>Hot Desk |250LE p/m</b>
+                                                </small>
+                                                <br>
+                                                <small>Desks available:100 </small>
+                                                <span>Available Now</span>
+                                            </a>
+                                        </li>
+                                        <li class="divider"></li>
+                                        <li>
+                                            <a href="#">
+                                                <small>
+                                                    <b>Hot Desk |250LE p/m</b>
+                                                </small>
+                                                <br>
+                                                <small>Desks available:100 </small>
+                                                <span>Available Now</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--end first button-->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <button class="btn btn-default btn-lg colored second" type="button" value="Show/Hide" onClick="showHideDiv('form1')">Request more Info</button>
+
+                                    <div class="form1" id="form1" data-wow-delay="0.4s" style="display: none;">
+                                        <div class="loginmodal-container">
+                                            <h1>Create an account to request more info</h1>
+                                            <br>
+                                            <form>
+                                                <input type="email" name="email" placeholder="Email">
+                                                <input type="text" name="name" placeholder="Full Name">
+                                                <input type="password" name="pass" placeholder="Password">
+                                            </form>
+                                            <small>Or continue with:</small>
+                                            <br>
+                                            <div class="social">
+                                                <div class="col-lg-4 col-md-4 ">
+                                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                                    <small> Facebook</small>
+
+                                                </div>
+                                                <div class="col-lg-4 col-md-4 ">
+                                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                                    <small> linkedIn</small>
+                                                </div>
+                                                <div class="col-lg-4 col-md-4">
+                                                    <i class="fa fa-google-plus" aria-hidden="true"></i>
+                                                    <small> Google</small>
+                                                </div>
+                                            </div>
+                                            <br/>
+                                            <button class="btn btn-default btn-md slide-button" type="button">Request more Info</button>
+                                            <br/>
+                                            <div class="help">Already have a Hubble account?
+                                                <a href="#">login</a>
+                                            </div>
+                                            <br>
+                                            <div class="help">Forgot your password?
+                                                <a href="#">Reset </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--end second button-->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <button class="btn btn-default btn-lg n-colored third" type="button">Request more Info</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end part1-->
+                        <!--part2-->
+                        <div class="part2 row">
+                            <div class="col-md-12">
+                                <p>
+                                    <i class="fa fa-check" aria-hidden="true"></i>
+                                    <b>100% free service</b>
+                                </p>
+                                <p>
+                                    <i class="fa fa-check" aria-hidden="true"></i>
+                                    <b> Zero commitment</b>
+                                </p>
+                                <p>
+                                    <i class="fa fa-check" aria-hidden="true"></i>
+                                    <b> Schedule a viewing instantly</b>
+                                </p>
+                            </div>
+                        </div>
+                        <!--end part2-->
+                        <!--part3-->
+                        <div class="part3 row">
+                            <div class="col-md-12">
+                                <span>
+                                    <i class="fa fa-tags" aria-hidden="true"></i>&nbsp; &nbsp;
+                                    <b> Exclusive Offer</b>
+                                </span>
+                                <p>
+                                    10% off your first three months of membership when you join Second Home through Hubble, plus a bespoke roundtable breakfast
+                                    with the Second Home community focused on your business.
+                                </p>
+                            </div>
+                        </div>
+                        <!--end part3-->
+                        <div class="part3 row ">
+                            <div class="col-md-12">
+                                <span>
+                                    <i class="fa fa-tags" aria-hidden="true"></i>&nbsp; &nbsp;
+                                    <b> Other Offers</b>
+                                </span>
+                                <p>
+                                    20% off your first three months of membership when you join Second Home through Hubble, plus a bespoke roundtable breakfast
+                                    with the Second Home community focused on your business.
+                                </p>
+                            </div>
+                        </div>
+                        <!--end part4-->
+                        <div class="part5 ">
+                            <div class="col-md-12">
+                                <h4> Take Tour</h4>
+                                <hr>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+
+                                    <video width="100%" controls>
+                                        <source src="images/Co-working and space design - Hub Australia.mp4" type="video/mp4">
+                                        <source src="mov_bbb.ogg" type="video/ogg">
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end part5-->
+                        <div class="part6 row">
+                            <div class="col-md-12 ">
+                                <h4>Gallary</h4>
+                                <hr>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4  wow fadeInLeft" data-wow-delay="1.8s">
+                                    <img src="images/slide-1.jpg">
+                                </div>
+                                <div class="col-md-4  wow fadeInLeft" data-wow-delay="1.4s">
+                                    <img src="images/slide-2.jpg">
+                                </div>
+                                <div class="col-md-4 wow fadeInLeft" data-wow-delay="0.8s">
+                                    <img src="images/slide-3.jpg">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4  wow flipInY" data-wow-delay="2s">
+                                    <img src="images/slide-4.jpg">
+                                </div>
+                                <div class="col-md-4 wow flipInY" data-wow-delay="2.4s">
+                                    <img src="images/slide-5.jpg">
+                                </div>
+                                <div class="col-md-4 wow flipInY" data-wow-delay="2.8s">
+                                    <img src="images/slide-6.jpg">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4 wow fadeInLeft" data-wow-delay="0.4s">
+                                    <img src="images/slide-1.jpg">
+                                </div>
+                                <div class="col-md-4 wow fadeInLeft" data-wow-delay="0.2s">
+                                    <img src="images/slide-5.jpg">
+                                </div>
+                                <div class="col-md-4 fadeInLeft" data-wow-delay="0.1s">
+                                    <img src="images/slide-3.jpg">
+                                </div>
+                            </div>
+
+                        </div>
+                        <!--end part6-->
+                    </div>
                 </div>
-                <div class="col-md-3 bus2">
-               <div><i class="fa fa-check" aria-hidden="true"></i><span>Access</span></div> 
-                 <br>
-                <div><i class="fa fa-check" aria-hidden="true"></i><span>Rooms</span></div> <br>
-                <div><i class="fa fa-check" aria-hidden="true" ></i><span>Security</span></div><br>
-                <div><i class="fa" aria-hidden="true"></i><span></span></div>
+                <!--end right part  -->
+
+
+            </div>
+        </div>
+    </section>
+    <!-- start Facilites-->
+    <div class="Facilies">
+        <div class="container">
+            <div class="col-md-12">
+                <span>
+                    <b>Facilities</b>
+                </span>
+                <hr>
+                <!-- start busines-->
+                <div class="bussines">
+                    <div>
+                        <span>
+                            <b>Business</b>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="col-md-3 bus1">
+                        <div>
+                            <i class="fa fa-times" aria-hidden="true"></i>
+                            <span class="gray">24hr Access</span>
+                        </div>
+                        <br>
+                        <div>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <span>Furniture</span>
+                        </div>
+                        <br>
+                        <div>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <span>Phone Booths</span>
+                        </div>
+                        <br>
+                        <div>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <span>Trading Address</span>
+                        </div>
+
+                    </div>
+                    <div class="col-md-3 bus1">
+                        <div>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <span>Breakout Space</span>
+                        </div>
+                        <br>
+                        <div>
+                            <i class="fa fa-times" aria-hidden="true"></i>
+                            <span class="gray">Inventory Storage</span>
+                        </div>
+                        <br>
+                        <div>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <span>Printing</span>
+                        </div>
+                        <br>
+                        <div>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <span>Utilities Address</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3 bus2">
+                        <div>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <span>Cleaning</span>
+                        </div>
+                        <br>
+                        <div>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <span>Mailing</span>
+                        </div>
+                        <br>
+                        <div>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <span>Reception</span>
+                        </div>
+                        <br>
+                        <div>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <span>Wifi</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3 bus2">
+                        <div>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <span>Access</span>
+                        </div>
+                        <br>
+                        <div>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <span>Rooms</span>
+                        </div>
+                        <br>
+                        <div>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <span>Security</span>
+                        </div>
+                        <br>
+                        <div>
+                            <i class="fa" aria-hidden="true"></i>
+                            <span></span>
+                        </div>
+                    </div>
                 </div>
-                </div><!--end busines-->
+                <!--end busines-->
                 <!-- start Additional-->
-                
-                <div class="Additional">
-                  <div><span ><b>Additional</b></span>
-                </div><br>
-                <div class="col-md-3 bus1">
-                   <div><i class="fa fa-check" aria-hidden="true"></i><span>Beer&Wine</span></div><br>
-                   <div><i class="fa fa-check" aria-hidden="true"></i><span>Coffee&Tea</span></div><br>
-                   <div><i class="fa fa-times" aria-hidden="true"></i><span class="gray">Gym</span></div><br>      
-                   <div><i class="fa fa-check" aria-hidden="true"></i><span>Pets Allowed</span></div>
-                </div>
-                <div class="col-md-3 bus1">
-                  <div><i class="fa fa-check" aria-hidden="true"></i><span>Bike Storage</span></div><br> 
-                  <div><i class="fa fa-check" aria-hidden="true"></i><span>Event Space</span></div><br>
-                  <div><i class="fa fa-check" aria-hidden="true"></i><span>Kitchen</span></div><br>
-                  <div><i class="fa fa-times" aria-hidden="true"></i><span class="gray">Roof Terrace</span></div>
-                </div>
 
-                 <div class="col-md-3 bus2">
-               <div><i class="fa fa-check" aria-hidden="true"></i><span>Cafe</span></div> <br>
-                <div><i class="fa fa-check" aria-hidden="true"></i><span>Event&Talk</span></div><br>
-                <div><i class="fa fa-check" aria-hidden="true"></i><span>Lockers</span></div><br>
-                <div><i class="fa fa-check" aria-hidden="true"></i><span>Showers</span></div><br>
+                <div class="Additional">
+                    <div>
+                        <span>
+                            <b>Additional</b>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="col-md-3 bus1">
+                        <div>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <span>Beer&Wine</span>
+                        </div>
+                        <br>
+                        <div>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <span>Coffee&Tea</span>
+                        </div>
+                        <br>
+                        <div>
+                            <i class="fa fa-times" aria-hidden="true"></i>
+                            <span class="gray">Gym</span>
+                        </div>
+                        <br>
+                        <div>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <span>Pets Allowed</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3 bus1">
+                        <div>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <span>Bike Storage</span>
+                        </div>
+                        <br>
+                        <div>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <span>Event Space</span>
+                        </div>
+                        <br>
+                        <div>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <span>Kitchen</span>
+                        </div>
+                        <br>
+                        <div>
+                            <i class="fa fa-times" aria-hidden="true"></i>
+                            <span class="gray">Roof Terrace</span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 bus2">
+                        <div>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <span>Cafe</span>
+                        </div>
+                        <br>
+                        <div>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <span>Event&Talk</span>
+                        </div>
+                        <br>
+                        <div>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <span>Lockers</span>
+                        </div>
+                        <br>
+                        <div>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <span>Showers</span>
+                        </div>
+                        <br>
+                    </div>
+                    <div class="col-md-3 bus2">
+                        <div>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <span>Childcare</span>
+                        </div>
+                        <br>
+                        <div>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <span>Fruit&snack</span>
+                        </div>
+                        <br>
+                        <div>
+                            <i class="fa fa-times" aria-hidden="true"></i>
+                            <span class="gray">Parking</span>
+                        </div>
+                        <br>
+                        <div>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <span>Fruit&snack</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-3 bus2">
-               <div><i class="fa fa-check" aria-hidden="true"></i><span>Childcare</span></div><br> 
-                <div><i class="fa fa-check" aria-hidden="true"></i><span>Fruit&snack</span></div><br>
-                <div><i class="fa fa-times" aria-hidden="true"></i><span class="gray">Parking</span></div><br>
-                <div><i class="fa fa-check" aria-hidden="true"></i><span>Fruit&snack</span></div>
-                </div>
-                </div><!--end Additional-->
-              </div>
-              </div>
+                <!--end Additional-->
             </div>
-   <!-- start highlights-->
-                <div class="highlights" >
-                  <div class="container">
-                  <div><span ><b>Highlights</b></span>
-                    <hr>
-                </div><br>
-                <div class="ICONIC wow rollIn " data-wow-delay="1s" >
-                 <div class="container">
+        </div>
+    </div>
+    <!-- start highlights-->
+    <div class="highlights">
+        <div class="container">
+            <div>
+                <span>
+                    <b>Highlights</b>
+                </span>
+                <hr>
+            </div>
+            <br>
+            <div class="ICONIC wow rollIn " data-wow-delay="1s">
+                <div class="container">
                     <div class="col-md-1 ">
-                      <div class="numbers"><div>1</div></div>
-                    </div>
-                   <div class="col-md-11 arch">
-                      <p>ICONIC ARCHITECTURE</p>
-                      <small>Work amongst hundreds of plants and trees, in a workspace filled with bright colours and natural light.</small>
-                   </div>
-                 </div>
-                </div>
-                <br><br>
-                <div class="ICONIC wow rollIn " data-wow-delay="2s" >
-                  <div class="container">
-                    <div class="col-md-1">
-                    <div class="numbers"><div>2</div></div>
-                    </div>
-                     <div class="col-md-11 arch">
-                       <p>AMAZING COMMUNITY</p>
-                       <small>Teams based here include Kickstarter, Artsy, TaskRabbit, Help Refugees, Ernst & Young and Cushman & Wakefield.</small>
-                    </div>
-                  </div>
-                </div>
-                <br><br>
-                <div class="ICONIC wow rollIn " data-wow-delay="3s" >
-                  <div class="container">
-                    <div class="col-md-1">
-                      <div class="numbers"><div>3</div></div>
-                    </div>
-                     <div class="col-md-11 arch">
-                       <p>WORLD-CLASS CULTURAL PROGRAMME</p>
-                       <small>Teams based here include Kickstarter, Artsy, TaskRabbit, Help Refugees, Ernst & Young and Cushman & Wakefield.</small>
-                    </div>
-                  </div>
-                </div>
-                <br><br>
-                <div class="ICONIC wow rollIn " data-wow-delay="4s" >
-                  <div class="container">
-                    <div class="col-md-1">
-                      <div class="numbers"><div>4</div></div>
+                        <div class="numbers">
+                            <div>1</div>
+                        </div>
                     </div>
                     <div class="col-md-11 arch">
-                      <p>FAMILY-FRIENDLY</p>
-                      <small>A first of its kind, Members have on-site access to an OSTED rated creche.</small>
+                        <p>ICONIC ARCHITECTURE</p>
+                        <small>Work amongst hundreds of plants and trees, in a workspace filled with bright colours and natural
+                            light.
+                        </small>
                     </div>
-                  </div>
                 </div>
-                  </div>
-                </div> <!-- end highlights-->
-  <!-- start about us-->
-                <div class="AboutUs">
-                  <div class="container">
-                  <div><h4>About Us</h4>
-                    <hr >
-                   </div><br>
-                    <p>
-                      Second Home is Europe most innovative and iconic workspace – home to blue-chip corporations like Ernst & Young and Volkswagen, as well as creative businesses including Kickstarter, Artsy and TaskRabbit.
-                    </p>
-                    <p>
-                     Our beautiful spaces provide private studios and flexible workspaces for teams of up to 175 people – all surrounded by curves, natural light and thousands of plants and trees.
-                    </p>
-                    <p>
-                      Second Home's creative community includes every possible industry – from fashion and media to technology and professional services – it's the perfect place for innovation  to flourish.
-                    </p>
-                    <p>
-                      Thanks to our world-class facilities, community and support, teams at Second Home grow 10 times faster than the national average.
-                    </p>
-                 </div>
-                 </div><!-- end about us-->
+            </div>
+            <br>
+            <br>
+            <div class="ICONIC wow rollIn " data-wow-delay="2s">
+                <div class="container">
+                    <div class="col-md-1">
+                        <div class="numbers">
+                            <div>2</div>
+                        </div>
+                    </div>
+                    <div class="col-md-11 arch">
+                        <p>AMAZING COMMUNITY</p>
+                        <small>Teams based here include Kickstarter, Artsy, TaskRabbit, Help Refugees, Ernst & Young and Cushman
+                            & Wakefield.</small>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="ICONIC wow rollIn " data-wow-delay="3s">
+                <div class="container">
+                    <div class="col-md-1">
+                        <div class="numbers">
+                            <div>3</div>
+                        </div>
+                    </div>
+                    <div class="col-md-11 arch">
+                        <p>WORLD-CLASS CULTURAL PROGRAMME</p>
+                        <small>Teams based here include Kickstarter, Artsy, TaskRabbit, Help Refugees, Ernst & Young and Cushman
+                            & Wakefield.</small>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="ICONIC wow rollIn " data-wow-delay="4s">
+                <div class="container">
+                    <div class="col-md-1">
+                        <div class="numbers">
+                            <div>4</div>
+                        </div>
+                    </div>
+                    <div class="col-md-11 arch">
+                        <p>FAMILY-FRIENDLY</p>
+                        <small>A first of its kind, Members have on-site access to an OSTED rated creche.</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end highlights-->
+    <!-- start about us-->
+    <div class="AboutUs">
+        <div class="container">
+            <div>
+                <h4>About Us</h4>
+                <hr>
+            </div>
+            <br>
+            <p>
+                Second Home is Europe most innovative and iconic workspace – home to blue-chip corporations like Ernst & Young and Volkswagen,
+                as well as creative businesses including Kickstarter, Artsy and TaskRabbit.
+            </p>
+            <p>
+                Our beautiful spaces provide private studios and flexible workspaces for teams of up to 175 people – all surrounded by curves,
+                natural light and thousands of plants and trees.
+            </p>
+            <p>
+                Second Home's creative community includes every possible industry – from fashion and media to technology and professional
+                services – it's the perfect place for innovation to flourish.
+            </p>
+            <p>
+                Thanks to our world-class facilities, community and support, teams at Second Home grow 10 times faster than the national
+                average.
+            </p>
+        </div>
+    </div>
+    <!-- end about us-->
     <!--start question part-->
-    <div class="question" >
-    
-    		<div class="middel-div">
-    			<b>Questions about this space?</b> Chat to our <a href="#">Customer Support Team </a>or call Hubble on<a href="#"> +44 20 3608 0215</a>
-                 </div>
-    			</div>
+    <div class="question">
+
+        <div class="middel-div">
+            <b>Questions about this space?</b> Chat to our
+            <a href="#">Customer Support Team </a>or call Hubble on
+            <a href="#"> +44 20 3608 0215</a>
+        </div>
+    </div>
     </div>
     <!--end question-->
-       <!--start neighbour part   --> 
+    <!--start neighbour part   -->
     <div class="Neighbourhood">
-    	<div class="container">
-    		<h3>Neighbourhood Guide</h3>
+        <div class="container">
+            <h3>Neighbourhood Guide</h3>
             <div class="row ">
-          <div class="col-md-4 image wow rotateIn " data-wow-delay="0.3s">
-            <a href="https://www.google.com.eg/maps?source=tldsi&hl=ar"><img src="images/map.png" ></a>
-          </div>
-          <div class="col-md-4 neighbours wow lightSpeedIn " data-wow-delay="1s">
-               <div class="col-md-2">
-             <div class="numbers"><div>1</div></div>
-           </div>
-            <div class="col-md-10">
-             <b>MORTY & BOB'S</b><br/>
-             <p>Breakfast Spot</p>
-           </div>
+                <div class="col-md-4 image ">
+                    <a href="https://www.google.com.eg/maps?source=tldsi&hl=ar">
+                        <img src="images/map.png">
+                    </a>
+                </div>
+                <div class="col-md-4 neighbours wow lightSpeedIn " data-wow-delay="1s">
+                    <div class="col-md-2">
+                        <div class="numbers">
+                            <div>1</div>
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                        <b>MORTY & BOB'S</b>
+                        <br/>
+                        <p>Breakfast Spot</p>
+                    </div>
+                </div>
+                <div class="col-md-4 neighbours wow lightSpeedIn " data-wow-delay="3s">
+                    <div class="col-md-2">
+                        <div class="numbers">
+                            <div>2</div>
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                        <b>MORTY & BOB'S</b>
+                        <br/>
+                        <p>Breakfast Spot</p>
+                    </div>
+                </div>
             </div>
-             <div class="col-md-4 neighbours wow lightSpeedIn " data-wow-delay="3s">
-               <div class="col-md-2">
-             <div class="numbers"><div>2</div></div>
-           </div>
-            <div class="col-md-10">
-             <b>MORTY & BOB'S</b><br/>
-             <p>Breakfast Spot</p>
-           </div>
+            <div class="row">
+                <div class="col-md-4 image">
+                    <a href="#">
+                        <img>
+                    </a>
+                </div>
+                <div class="col-md-4 neighbours wow lightSpeedIn " data-wow-delay="1.8s" style="margin-top: -110px;">
+                    <div class="col-md-2">
+                        <div class="numbers">
+                            <div>3</div>
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                        <b>MORTY & BOB'S</b>
+                        <br/>
+                        <p>Breakfast Spot</p>
+                    </div>
+                </div>
+                <div class="col-md-4 neighbours wow lightSpeedIn " data-wow-delay="3.8s" style="margin-top: -110px;">
+                    <div class="col-md-2">
+                        <div class="numbers">
+                            <div>4</div>
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                        <b>MORTY & BOB'S</b>
+                        <br/>
+                        <p>Breakfast Spot</p>
+                    </div>
+                </div>
             </div>
-        </div>
-          <div class="row">
-          <div class="col-md-4 image">
-            <a href="#"><img ></a>
-          </div>
-          <div class="col-md-4 neighbours wow lightSpeedIn " data-wow-delay="1.8s" style="margin-top: -110px;">
-               <div class="col-md-2">
-             <div class="numbers"><div>3</div></div>
-           </div>
-            <div class="col-md-10">
-             <b>MORTY & BOB'S</b><br/>
-             <p>Breakfast Spot</p>
-           </div>
-            </div>
-             <div class="col-md-4 neighbours wow lightSpeedIn " data-wow-delay="3.8s" style="margin-top: -110px;">
-               <div class="col-md-2">
-             <div class="numbers"><div>4</div></div>
-           </div>
-            <div class="col-md-10">
-             <b>MORTY & BOB'S</b><br/>
-             <p>Breakfast Spot</p>
-           </div>
-            </div>
-        </div>
             <div class="row ">
-          <div class="col-md-4 image">
-            <a href="#"><img ></a>
-          </div>
-          <div class="col-md-4 neighbours wow lightSpeedIn " data-wow-delay="2.4s" style="margin-top: -10px;">
-               <div class="col-md-2">
-             <div class="numbers"><div>5</div></div>
-           </div>
-            <div class="col-md-10">
-             <b>MORTY & BOB'S</b><br/>
-             <p>Breakfast Spot</p>
-           </div>
-            </div>
+                <div class="col-md-4 image">
+                    <a href="#">
+                        <img>
+                    </a>
+                </div>
+                <div class="col-md-4 neighbours wow lightSpeedIn " data-wow-delay="2.4s" style="margin-top: -10px;">
+                    <div class="col-md-2">
+                        <div class="numbers">
+                            <div>5</div>
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                        <b>MORTY & BOB'S</b>
+                        <br/>
+                        <p>Breakfast Spot</p>
+                    </div>
+                </div>
 
-             <div class="col-md-4 neighbours wow lightSpeedIn " data-wow-delay="4.4s" style="margin-top: -10px;">
-               <div class="col-md-2">
-             <div class="numbers"><div>6</div></div>
-           </div>
-            <div class="col-md-10">
-             <b>MORTY & BOB'S</b><br/>
-             <p>Breakfast Spot</p>
-           </div>
+                <div class="col-md-4 neighbours wow lightSpeedIn " data-wow-delay="4.4s" style="margin-top: -10px;">
+                    <div class="col-md-2">
+                        <div class="numbers">
+                            <div>6</div>
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                        <b>MORTY & BOB'S</b>
+                        <br/>
+                        <p>Breakfast Spot</p>
+                    </div>
+                </div>
             </div>
         </div>
-    	</div>	
     </div>
     <!--end neighbour-->
     <!-- Featured properties start -->
@@ -715,12 +1321,14 @@
         <div class="container">
             <!-- Main title -->
             <div class="main-title">
-                <h3>Other Recommended Workspaces</h3> </div>
+                <h3>Other Recommended Workspaces</h3>
+            </div>
             <div class="row">
                 <div class="filtr-container">
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12  filtr-item wow pulse " data-wow-delay="1s" >
-                            <div class="col-item property">
-                            <div class="photo"> <img src="img/properties/properties-4.jpg" class="img-responsive" alt="a" /> </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12  filtr-item wow pulse " data-wow-delay="1s">
+                        <div class="col-item property">
+                            <div class="photo">
+                                <img src="img/properties/properties-4.jpg" class="img-responsive" alt="a" /> </div>
                             <div class="info">
                                 <div class="top-info">
                                     <div class="container-fluid">
@@ -730,8 +1338,8 @@
                                                 <p class="sub-ti">Shoreditch, London</p>
                                                 <p class="sub-ti">Hackney Central (12 mins walk)</p>
                                             </div>
-                                            
-                                            </div>
+
+                                        </div>
                                     </div>
                                 </div>
                                 <hr>
@@ -754,9 +1362,10 @@
                                         </div>
                                     </div>
                                     <div class="shortlist">
-                               
+
                                         <!-- Button trigger modal -->
-                                        <button type="button" class="short-btn" data-toggle="modal" data-target="#myModal"> <i class="fa fa-heart"></i>Shortlist </button>
+                                        <button type="button" class="short-btn" data-toggle="modal" data-target="#myModal">
+                                            <i class="fa fa-heart"></i>Shortlist </button>
                                         <!-- Button trigger modal -->
                                         <!-- Modal -->
                                     </div>
@@ -767,11 +1376,11 @@
                     </div>
 
                     <style>
-                        
                     </style>
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12  filtr-item wow pulse " data-wow-delay="1.4s" >
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12  filtr-item wow pulse " data-wow-delay="1.4s">
                         <div class="col-item">
-                            <div class="photo"> <img src="img/properties/properties-4.jpg" class="img-responsive" alt="a" /> </div>
+                            <div class="photo">
+                                <img src="img/properties/properties-4.jpg" class="img-responsive" alt="a" /> </div>
                             <div class="info">
                                 <div class="top-info">
                                     <div class="container-fluid">
@@ -781,7 +1390,7 @@
                                                 <p class="sub-ti">Shoreditch, London</p>
                                                 <p class="sub-ti">Hackney Central (12 mins walk)</p>
                                             </div>
-                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <hr>
@@ -804,9 +1413,10 @@
                                         </div>
                                     </div>
                                     <div class="shortlist">
-                                     
+
                                         <!-- Button trigger modal -->
-                                        <button type="button" class="short-btn" data-toggle="modal" data-target="#myModal"> <i class="fa fa-heart"></i>Shortlist </button>
+                                        <button type="button" class="short-btn" data-toggle="modal" data-target="#myModal">
+                                            <i class="fa fa-heart"></i>Shortlist </button>
                                         <!-- Button trigger modal -->
                                         <!-- Modal -->
                                     </div>
@@ -815,9 +1425,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12  filtr-item wow pulse " data-wow-delay="1.8s" >
-                            <div class="col-item">
-                            <div class="photo"> <img src="img/properties/properties-4.jpg" class="img-responsive" alt="a" /> </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12  filtr-item wow pulse " data-wow-delay="1.8s">
+                        <div class="col-item">
+                            <div class="photo">
+                                <img src="img/properties/properties-4.jpg" class="img-responsive" alt="a" /> </div>
                             <div class="info">
                                 <div class="top-info">
                                     <div class="container-fluid">
@@ -827,7 +1438,7 @@
                                                 <p class="sub-ti">Shoreditch, London</p>
                                                 <p class="sub-ti">Hackney Central (12 mins walk)</p>
                                             </div>
-                                             </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <hr>
@@ -850,9 +1461,10 @@
                                         </div>
                                     </div>
                                     <div class="shortlist">
-                                   
+
                                         <!-- Button trigger modal -->
-                                        <button type="button" class="short-btn" data-toggle="modal" data-target="#myModal"> <i class="fa fa-heart"></i>Shortlist </button>
+                                        <button type="button" class="short-btn" data-toggle="modal" data-target="#myModal">
+                                            <i class="fa fa-heart"></i>Shortlist </button>
                                         <!-- Button trigger modal -->
                                         <!-- Modal -->
                                     </div>
@@ -861,117 +1473,60 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12  filtr-item wow pulse " data-wow-delay="2.2s" >
-                            <div class="col-item">
-                            <div class="photo"> <img src="img/properties/properties-4.jpg" class="img-responsive" alt="a" /> </div>
-                            <div class="info">
-                                <div class="top-info">
-                                    <div class="container-fluid">
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <h5 class="main-ti">Second Home - London Fields</h5>
-                                                <p class="sub-ti">Shoreditch, London</p>
-                                                <p class="sub-ti">Hackney Central (12 mins walk)</p>
-                                            </div>
-                                            </div>
-                                    </div>
-                                </div>
-                                <hr>
-                                <div class="bot-info">
-                                    <div class="separator clear-left">
-                                        <div class="col-md-4 col-xs-4 ">
-                                            <p class="office office-type">Hot Disk</p>
-                                            <p class="office office-price">&pound;203</p>
-                                            <p class="office office-time">Per month</p>
-                                        </div>
-                                        <div class="col-md-4 col-xs-4 ">
-                                            <p class="office off-color">Fixed Disk</p>
-                                            <p class="office auto-margin off-color">&nbsp;</p>
-                                            <p class="office off-color">Per month</p>
-                                        </div>
-                                        <div class="col-md-4 col-xs-4 ">
-                                            <p class="office off-color">Private Office</p>
-                                            <p class="office auto-margin off-color">&nbsp;</p>
-                                            <p class="office off-color">Per month</p>
-                                        </div>
-                                    </div>
-                                    <div class="shortlist">
-                              
-                                        <!-- Button trigger modal -->
-                                        <button type="button" class="short-btn" data-toggle="modal" data-target="#myModal"> <i class="fa fa-heart"></i>Shortlist </button>
-                                        <!-- Button trigger modal -->
-                                        <!-- Modal -->
-                                    </div>
-                                </div>
-                                <div class="clearfix"> </div>
-                            </div>
-                        </div>
-                    </div>  
+
                 </div>
             </div>
         </div>
     </div>
     <!-- Featured properties end -->
-
-		
-	
-	
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- Footer start -->
-    <footer class="main-footer clearfix" >
+    </div>
+    <!-- Footer start -->
+    <footer class="main-footer clearfix">
         <div class="container">
             <!-- Footer top -->
             <div class="footer-top">
                 <div class="row">
                     <div class="col-lg-5 col-md-4 col-sm-3 col-xs-12">
                         <div class="logo-2">
-                            <a href="index.html"> <img src="img/footer-logo.png" alt="footer-logo"> </a>
+                            <a href="index.html">
+                                <img src="img/footer-logo.png" alt="footer-logo"> </a>
                         </div>
                     </div>
                     <div class="col-lg-4  col-md-4 col-sm-5 col-xs-12">
                         <form action="#" method="GET">
                             <input type="text" class="form-contact" name="email" placeholder="Enter your email">
-                            <button type="submit" name="submitNewsletter" class="btn btn-default button-small"> <i class="fa fa-paper-plane"></i> </button>
+                            <button type="submit" name="submitNewsletter" class="btn btn-default button-small">
+                                <i class="fa fa-paper-plane"></i>
+                            </button>
                         </form>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
                         <ul class="social-list clearfix">
-                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-rss"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-google-plus"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -983,13 +1538,23 @@
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                         <div class="footer-item">
                             <div class="main-title-2">
-                                <h1>Contact Us</h1> </div>
-                            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's printing and typesetting </p>
+                                <h1>Contact Us</h1>
+                            </div>
+                            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                the industry's printing and typesetting </p>
                             <ul class="personal-info">
-                                <li> <i class="fa fa-map-marker"></i> Address: 20/F Green Road, Dhanmondi, Dhaka </li>
-                                <li> <i class="fa fa-envelope"></i> Email:<a href="mailto:sales@hotelempire.com">info@themevessel.com</a> </li>
-                                <li> <i class="fa fa-phone"></i> Phone: <a href="tel:+55-417-634-7071">+55 4XX-634-7071</a> </li>
-                                <li> <i class="fa fa-fax"></i> Fax: +55 4XX-634-7071 </li>
+                                <li>
+                                    <i class="fa fa-map-marker"></i> Address: 20/F Green Road, Dhanmondi, Dhaka </li>
+                                <li>
+                                    <i class="fa fa-envelope"></i> Email:
+                                    <a href="mailto:sales@hotelempire.com">info@themevessel.com</a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-phone"></i> Phone:
+                                    <a href="tel:+55-417-634-7071">+55 4XX-634-7071</a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-fax"></i> Fax: +55 4XX-634-7071 </li>
                             </ul>
                         </div>
                     </div>
@@ -997,15 +1562,30 @@
                     <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
                         <div class="footer-item">
                             <div class="main-title-2">
-                                <h1>Links</h1> </div>
+                                <h1>Links</h1>
+                            </div>
                             <ul class="links">
-                                <li> <a href="index.html">Home</a> </li>
-                                <li> <a href="about.html">About Us</a> </li>
-                                <li> <a href="contact.html">Contact Us</a> </li>
-                                <li> <a href="blog-single.html">Blog</a> </li>
-                                <li> <a href="properties-list-rightside.html">properties Listing</a> </li>
-                                <li> <a href="properties-grid-rightside.html">properties Grid</a> </li>
-                                <li> <a href="properties-details.html">properties Details</a> </li>
+                                <li>
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li>
+                                    <a href="about.html">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">Contact Us</a>
+                                </li>
+                                <li>
+                                    <a href="blog-single.html">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="properties-list-rightside.html">properties Listing</a>
+                                </li>
+                                <li>
+                                    <a href="properties-grid-rightside.html">properties Grid</a>
+                                </li>
+                                <li>
+                                    <a href="properties-details.html">properties Details</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -1013,17 +1593,36 @@
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="footer-item tags-box">
                             <div class="main-title-2">
-                                <h1>Tags</h1> </div>
+                                <h1>Tags</h1>
+                            </div>
                             <ul class="tags">
-                                <li><a href="#">Image</a></li>
-                                <li><a href="#">Features</a></li>
-                                <li><a href="#">Typography</a></li>
-                                <li><a href="#">Gallery</a></li>
-                                <li><a href="#">Slideshow</a></li>
-                                <li><a href="#">Post Formats</a></li>
-                                <li><a href="#">Sellers</a></li>
-                                <li><a href="#">WooCommerce</a></li>
-                                <li><a href="#">Shortcodes</a></li>
+                                <li>
+                                    <a href="#">Image</a>
+                                </li>
+                                <li>
+                                    <a href="#">Features</a>
+                                </li>
+                                <li>
+                                    <a href="#">Typography</a>
+                                </li>
+                                <li>
+                                    <a href="#">Gallery</a>
+                                </li>
+                                <li>
+                                    <a href="#">Slideshow</a>
+                                </li>
+                                <li>
+                                    <a href="#">Post Formats</a>
+                                </li>
+                                <li>
+                                    <a href="#">Sellers</a>
+                                </li>
+                                <li>
+                                    <a href="#">WooCommerce</a>
+                                </li>
+                                <li>
+                                    <a href="#">Shortcodes</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -1031,35 +1630,42 @@
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="footer-item popular-posts">
                             <div class="main-title-2">
-                                <h1>popular posts</h1> </div>
+                                <h1>popular posts</h1>
+                            </div>
                             <div class="media">
-                                <div class="media-left"> <img class="media-object" src="img/properties/small-properties-1.jpg" alt="small-properties-1"> </div>
+                                <div class="media-left">
+                                    <img class="media-object" src="img/properties/small-properties-1.jpg" alt="small-properties-1"> </div>
                                 <div class="media-body">
                                     <h3 class="media-heading">
-                                    <a href="#">Modern Design Building</a>
-                                </h3>
+                                        <a href="#">Modern Design Building</a>
+                                    </h3>
                                     <p>21 October, 2016</p>
-                                    <div class="comments-icon"> <i class="fa fa-comments"></i>45 comments </div>
+                                    <div class="comments-icon">
+                                        <i class="fa fa-comments"></i>45 comments </div>
                                 </div>
                             </div>
                             <div class="media">
-                                <div class="media-left"> <img class="media-object" src="img/properties/small-properties-2.jpg" alt="small-properties-2"> </div>
+                                <div class="media-left">
+                                    <img class="media-object" src="img/properties/small-properties-2.jpg" alt="small-properties-2"> </div>
                                 <div class="media-body">
                                     <h3 class="media-heading">
-                                    <a href="#">Real Eatate Expo 2016</a>
-                                </h3>
+                                        <a href="#">Real Eatate Expo 2016</a>
+                                    </h3>
                                     <p>10 October, 2016</p>
-                                    <div class="comments-icon"> <i class="fa fa-comments"></i>32 comments </div>
+                                    <div class="comments-icon">
+                                        <i class="fa fa-comments"></i>32 comments </div>
                                 </div>
                             </div>
                             <div class="media">
-                                <div class="media-left"> <img class="media-object" src="img/properties/small-properties-3.jpg" alt="small-properties-3"> </div>
+                                <div class="media-left">
+                                    <img class="media-object" src="img/properties/small-properties-3.jpg" alt="small-properties-3"> </div>
                                 <div class="media-body">
                                     <h3 class="media-heading">
-                                    <a href="#">Construction and Development</a>
-                                </h3>
+                                        <a href="#">Construction and Development</a>
+                                    </h3>
                                     <p>10 October, 2016</p>
-                                    <div class="comments-icon"> <i class="fa fa-comments"></i>58 comments </div>
+                                    <div class="comments-icon">
+                                        <i class="fa fa-comments"></i>58 comments </div>
                                 </div>
                             </div>
                         </div>
@@ -1071,7 +1677,8 @@
     <!-- Footer end -->
     <!-- Copy right start -->
     <div class="copy-right">
-        <div class="container"> &copy; 2017 <a href="http://themevessel.com/" target="_blank">Theme Vessel</a>. Trademarks and brands are the property of their respective owners. </div>
+        <div class="container"> &copy; 2017
+            <a href="http://themevessel.com/" target="_blank">Theme Vessel</a>. Trademarks and brands are the property of their respective owners. </div>
     </div>
 
 
@@ -1084,7 +1691,7 @@
 
 
 
-      <!-- Copy end right-->
+    <!-- Copy end right-->
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/bootstrap-submenu.js"></script>
     <script type="text/javascript" src="js/rangeslider.js"></script>
@@ -1106,15 +1713,17 @@
     <script type="text/javascript" src="js/ie10-viewport-bug-workaround.js"></script>
     <!-- Custom javascript -->
     <script type="text/javascript" src="js/ie10-viewport-bug-workaround.js"></script>
-<script src="js/wow.min.js"></script>
-              <script>
-              new WOW().init();
-              </script>
+
+    <script src="js/wow.min.js"></script>
+
+    <script>
+        new WOW().init();
+    </script>
     <script>
         function openRightMenu() {
             document.getElementById("rightMenu").style.display = "block";
-           document.getElementById("overlay").style.display = "block";
-      
+            document.getElementById("overlay").style.display = "block";
+
         }
 
         function closeRightMenu() {
@@ -1123,23 +1732,24 @@
         }
 });
     </script>
- <script type="text/javascript">
-      function showHideDiv(ele) {
-        var srcElement = document.getElementById(ele);
-        if (srcElement != null) {
-          if (srcElement.style.display == "block") {
-            srcElement.style.display = 'none';
-          }
-          else {
-            srcElement.style.display = 'block';
-          }
-          return false;
+    <script type="text/javascript">
+        function showHideDiv(ele) {
+            var srcElement = document.getElementById(ele);
+            if (srcElement != null) {
+                if (srcElement.style.display == "block") {
+                    srcElement.style.display = 'none';
+                }
+                else {
+                    srcElement.style.display = 'block';
+                }
+                return false;
+            }
         }
-      }
     </script>
-   
+
 
 
 
 </body>
+
 </html>

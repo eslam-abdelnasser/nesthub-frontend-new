@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+	  <title>The Nest HUB</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <!-- External CSS libraries -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-submenu.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="css/leaflet.css" type="text/css">
+    <link rel="stylesheet" href="css/map.css" type="text/css">
+    <link rel="stylesheet" href="css/sidenav.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" type="text/css" href="fonts/linearicons/style.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" type="text/css" href="css/dropzone.css">
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" id="style_sheet" href="css/skins/default.css">
+    <!-- Favicon icon -->
+    <link rel="shortcut icon" href="images/logoo.png" type="image/x-icon">
+    <!-- Google fonts -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800%7CPlayfair+Display:400,700%7CRoboto:100,300,400,400i,500,700">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link rel="stylesheet" type="text/css" href="css/ie10-viewport-bug-workaround.css">
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script type="text/javascript" src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script type="text/javascript" src="js/ie-emulation-modes-warning.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="js/html5shiv.min.js"></script>
+    <script type="text/javascript" src="js/respond.min.js"></script>
+    <![endif]-->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <link rel="Stylesheet" type="text/css" href="css/carousel.css" />
+      <link rel="Stylesheet" type="text/css" href="css/description.css" />
+    <script type="text/javascript" src="scripts/jquery-1.4.4.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.carousel-1.1.min.js"></script>
+    <script src="js/jssor.slider-26.9.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jssor_1_slider_init = function() {
+            var jssor_1_SlideshowTransitions = [
+              {$Duration:800,x:0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:-0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:-0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,y:0.3,$During:{$Top:[0.3,0.7]},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,y:-0.3,$SlideOut:true,$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,y:-0.3,$During:{$Top:[0.3,0.7]},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,y:0.3,$SlideOut:true,$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:0.3,$Cols:2,$During:{$Left:[0.3,0.7]},$ChessMode:{$Column:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:0.3,$Cols:2,$SlideOut:true,$ChessMode:{$Column:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,y:0.3,$Rows:2,$During:{$Top:[0.3,0.7]},$ChessMode:{$Row:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,y:0.3,$Rows:2,$SlideOut:true,$ChessMode:{$Row:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,y:0.3,$Cols:2,$During:{$Top:[0.3,0.7]},$ChessMode:{$Column:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,y:-0.3,$Cols:2,$SlideOut:true,$ChessMode:{$Column:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:0.3,$Rows:2,$During:{$Left:[0.3,0.7]},$ChessMode:{$Row:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:-0.3,$Rows:2,$SlideOut:true,$ChessMode:{$Row:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:0.3,y:0.3,$Cols:2,$Rows:2,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$ChessMode:{$Column:3,$Row:12},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:0.3,y:0.3,$Cols:2,$Rows:2,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$SlideOut:true,$ChessMode:{$Column:3,$Row:12},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,$Delay:20,$Clip:3,$Assembly:260,$Easing:{$Clip:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,$Delay:20,$Clip:3,$SlideOut:true,$Assembly:260,$Easing:{$Clip:$Jease$.$OutCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,$Delay:20,$Clip:12,$Assembly:260,$Easing:{$Clip:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,$Delay:20,$Clip:12,$SlideOut:true,$Assembly:260,$Easing:{$Clip:$Jease$.$OutCubic,$Opacity:$Jease$.$Linear},$Opacity:2}
+            ];
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $Cols: 1,
+              $Align: 0,
+              $SlideshowOptions: {
+                $Class: $JssorSlideshowRunner$,
+                $Transitions: jssor_1_SlideshowTransitions,
+                $TransitionsOrder: 1
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              },
+              $ThumbnailNavigatorOptions: {
+                $Class: $JssorThumbnailNavigator$,
+                $Cols: 6,
+                $Orientation: 2,
+                $Align: 156
+              }
+            };
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+            /*#region responsive code begin*/
+            var MAX_WIDTH = 980;
+            function ScaleSlider() {
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+
+                if (containerWidth) {
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+            ScaleSlider();
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*#endregion responsive code end*/
+        };
+    </script>
+</head>
+<body>
+<!-- began sidebar-->
+	  <div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none;right:0;z-index: 99999999; margin-top: 0px;" id="rightMenu">
+        <button onclick="closeRightMenu()" class="w3-bar-item w3-button w3-large closee" style="background: #ffb400;
+            height: 40px;"> <img src="img/close-white.png" alt=""></button>
+         <a href="#" class="w3-bar-item w3-button"><i class="fa fa-inbox" aria-hidden="true"></i> INBOX</a> 
+         <a href="#" class="w3-bar-item w3-button"><i class="fa fa-list" aria-hidden="true"></i> Listing</a> 
+         <a href="#" class="w3-bar-item w3-button"><i class="fa fa-address-card-o" aria-hidden="true"></i> Profile</a> 
+         <br>
+         <br>
+         <br>
+         <br>
+         <div class="container">
+        <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <a href="#">About us</a>
+          <br>
+          <br>
+         <a href="#">How NestHub Works</a>
+          <br>
+          <br>
+         <a href="#">FAQs</a>
+         <br>
+         <br>
+         <a href="#">Contact</a>
+         <br>
+         <br>
+         <a href="#">Blog</a>
+         <br>
+         <br>
+         <br>
+         <br>
+         <a href="#">Log out</a>
+          <br>
+          <br>
+         <a href="index-3">Go To NESTHUB.net  <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+         </div>
+    </div> <!--sidebar-->
+    <!-- Main header start -->
+    <header class="main-header">
+        <div class="container">
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navigation" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                    <button class="w3-button w3-teal w3-xlarge w3-right hidden-lg hidden-md" onclick="openRightMenu()">&#9776;</button>
+                    <a href="index-3.html" class="logo"> <img src="img/footer-logo.png" alt="logo"> </a>
+                   <div class="header-title"> 
+                    
+                    </div>
+                </div>
+               
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="navbar-collapse collapse" role="navigation" aria-expanded="true" id="app-navigation">
+                     <ul class="nav navbar-nav navbar-left ">
+                     	 <li class="dropdown" style=" margin-right: 65px;"><a href="index-3.html" tabindex="0" data-toggle="dropdown" data-submenu="" aria-expanded="false" style="color: black !important;">Cairo <i class="fa fa-chevron-down"></i></a>
+                   <ul class="dropdown-menu">
+                            <li><a href="index.html" style="color: black !important;">Giza</a></li>
+                            <li><a href="index.html" style="color: black !important;">6th of October</a></li>
+                        </ul>
+                     </li>
+                         <li class=""> <a style="color: black !important;">About</a></li>
+                        <li> <a href="login.html" class="sign-in" style="color: black !important;"><i class="fa fa-sign-in"></i> Login</a> </li>
+                        <li> <a href="signup.html" class="sign-in" style="color: black !important;"><i class="fa fa-user"></i> Register</a> </li>
+                        <li> <a href="signup.html" class="sign-in" style="color: black !important;"><i class="fa fa-search"></i> Search for office</a> </li>
+                        
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right rightside-navbar">
+
+                        
+                        <li>
+                            <button class="w3-button w3-teal w3-xlarge w3-right" onclick="openRightMenu()">&#9776;</button>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+                <!-- /.container -->
+            </nav>
+        </div>
+    </header>
+    <!-- Main header end -->
+<!-- carousel -->
+    <div id="jssor_1" >
+        <!-- Loading Screen -->
+        <div data-u="loading" class="jssorl-009-spin" >
+            <img src="img/spin.svg" />
+        </div>
+        <div data-u="slides" class="slider">
+            <div data-p="170.00">
+                <img data-u="image" src="images/slide-1.jpg" />
+                <div data-u="thumb">
+                    <img data-u="thumb" class="i" src="images/slide-1.jpg" />
+                    <span class="ti">Title</span><br />
+                    <span class="d">Slide Description</span>
+                </div>
+            </div>
+            <div data-p="170.00">
+                <img data-u="image" src="images/slide-2.jpg" />
+                <div data-u="thumb">
+                    <img data-u="thumb" class="i" src="images/slide-2.jpg" />
+                    <span class="ti">Title</span><br />
+                    <span class="d">Slide Description</span>
+                </div>
+            </div>
+            <div data-p="170.00">
+                <img data-u="image" src="images/slide-3.jpg" />
+                <div data-u="thumb">
+                    <img data-u="thumb" class="i" src="images/slide-3.jpg" />
+                    <span class="ti">Title</span><br />
+                    <span class="d">Slide Description</span>
+                </div>
+            </div>
+            <div data-p="170.00">
+                <img data-u="image" src="images/slide-4.jpg" />
+                <div data-u="thumb">
+                    <img data-u="thumb" class="i" src="images/slide-4.jpg" />
+                    <span class="ti">Title</span><br />
+                    <span class="d">Slide Description</span>
+                </div>
+            </div>
+            <div data-p="170.00">
+                <img data-u="image" src="images/slide-5.jpg" />
+                <div data-u="thumb">
+                    <img data-u="thumb" class="i" src="images/slide-5.jpg" />
+                    <span class="ti">Title</span><br />
+                    <span class="d">Slide Description</span>
+                </div>
+            </div>
+            <div data-p="170.00">
+                <img data-u="image" src="images/slide-6.jpg" />
+                <div data-u="thumb">
+                    <img data-u="thumb" class="i" src="images/slide-6.jpg" />
+                    <span class="ti">Title</span><br />
+                    <span class="d">Slide Description</span>
+                </div>
+            </div>
+            <div data-p="170.00">
+                <img data-u="image" src="images/slide-7.jpg" />
+                <div data-u="thumb">
+                    <img data-u="thumb" class="i" src="images/slide-7.jpg" />
+                    <span class="ti">Title</span><br />
+                    <span class="d">Slide Description</span>
+                </div>
+            </div>
+            <div data-p="170.00">
+                <img data-u="image" src="images/slide-1.jpg" />
+                <div data-u="thumb">
+                    <img data-u="thumb" class="i" src="images/slide-1.jpg" />
+                    <span class="ti">Title</span><br />
+                    <span class="d">Slide Description</span>
+                </div>
+            </div>
+            <div data-p="170.00">
+                <img data-u="image" src="images/slide-2.jpg" />
+                <div data-u="thumb">
+                    <img data-u="thumb" class="i" src="images/slide-2.jpg" />
+                    <span class="ti">Title</span><br />
+                    <span class="d">Slide Description</span>
+                </div>
+            </div>
+            <div data-p="170.00">
+                <img data-u="image" src="images/slide-3.jpg" />
+                <div data-u="thumb">
+                    <img data-u="thumb" class="i" src="images/slide-3.jpg"/>
+                    <span class="ti">Title</span><br />
+                    <span class="d">Slide Description</span>
+                </div>
+            </div>
+            <div data-p="170.00">
+                <img data-u="image" "images/slide-6.jpg" />
+                <div data-u="thumb">
+                    <img data-u="thumb" class="i" src="images/slide-6.jpg" />
+                    <span class="ti">Title</span><br />
+                    <span class="d">Slide Description</span>
+                </div>
+            </div>
+            <div data-p="170.00">
+                <img data-u="image" src="images/slide-5.jpg" />
+                <div data-u="thumb">
+                    <img data-u="thumb" class="i" src="images/slide-5.jpg" />
+                    <span class="ti">Title</span><br />
+                    <span class="d">Slide Description</span>
+                </div>
+            </div>
+        </div>
+        <!-- Thumbnail Navigator -->
+        <div data-u="thumbnavigator" class="jssort121" style="position:absolute;left:0px;top:0px;width:268px;height:380px;overflow:hidden;cursor:default;" data-autocenter="2" data-scale-left="0.75">
+            <div data-u="slides">
+                <div data-u="prototype" class="p" style="width:268px;height:68px;">
+                    <div data-u="thumbnailtemplate" class="t"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb111" style="position:absolute;bottom:12px;right:12px;" data-scale="0.5">
+            <div data-u="prototype" class="i" style="width:24px;height:24px;font-size:12px;line-height:24px;">
+                <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;z-index:-1;">
+                    <circle class="b" cx="8000" cy="8000" r="3000"></circle>
+                </svg>
+                <div data-u="numbertemplate" class="n"></div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">jssor_1_slider_init();</script>
+   
+<!-- END CAROUSEL -->
+
+
+
+
+
+    <script>
+        function openRightMenu() {
+            document.getElementById("rightMenu").style.display = "block";
+           document.getElementById("overlay").style.display = "block";
+      
+        }
+
+        function closeRightMenu() {
+            document.getElementById("rightMenu").style.display = "none";
+            document.getElementById("overlay").style.display = "none";
+        }
+    </script>
+</body>
+</html>

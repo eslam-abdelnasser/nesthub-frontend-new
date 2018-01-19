@@ -485,3 +485,10 @@ margin-top:-100px;
       margin-top: -40px;
 	}
 }
+@media (max-width:995px)
+{
+.navbar-header button.collapsed
+ {
+  display: none;
+  }
+}
