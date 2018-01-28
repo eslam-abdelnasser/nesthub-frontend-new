@@ -1,3 +1,9 @@
+ul{
+    list-style-type: none;
+}
+.clearfix{
+    clear: both;
+}
 .overlay
 {
     background-color: rgba(0,0,0,0.8);
@@ -121,6 +127,9 @@ color: #FFBB01 !important;
 	margin-top: 20px;
 	    padding-bottom: 70px;
 }
+.custom-right{
+    float: right;
+}
 .right .part1
 {
 	padding-top: 20px;
@@ -227,9 +236,13 @@ margin-top:20px;
 
 .right .part6 img
 {
- width: 130px;
+ /* width: 130px;
  height: 130px;
- margin-top: 5px;
+ margin-top: 5px; */    /* ereen*/
+ width: 100%;
+ height: 100%;
+ margin-top: 10px;
+ background-size: cover
 
 }
 
@@ -239,7 +252,7 @@ margin-top:20px;
 }
 .office-details
 {
-    margin-top: 300px;
+    margin-top: 20px;
 
 }
 .office-details ul li a
@@ -250,9 +263,16 @@ margin-top:20px;
 
 .office-details .tab-content img
 {
-width:530px;
+/* width:530px;
 height: 300px;
-margin-top: 20px;
+margin-top: 20px; */
+              /* edit by ereen */
+    width: 100%;
+    height: 100%;
+    background-size:cover;
+
+    margin-bottom: 16px;
+
 }
 .office-details .tab-content .main-content
 {
@@ -280,10 +300,9 @@ margin-top: 20px;
 {
 	font-size: 6px;
 }
- .office-details .tab-pane  .main-content
+ .office-details .tab-pane  .main-content    
 {
-	margin-top:80px; 
-
+	/* margin-top:80px;  */   /* ereen*/
 }
  .office-details .tab-pane  .main-content span
  {
@@ -355,15 +374,15 @@ margin-left: 10px;
 {
 		color: #D9D9D9;
 }
-.Facilies .Additional .bus2 i.fa-times
+.Facilies .Additioanal .bus2 i.fa-times
 {
 	color: #D9D9D9;
 }
 .highlights
 {
-	padding-top:40px;
-    margin-top:50px;
-    padding-bottom: 40px;
+	/* padding-top:40px; */
+    margin-top:20px;
+    /* padding-bottom: 40px; */
     width: 97%;
     margin-left: 1.3%;
 }
@@ -651,7 +670,11 @@ background-color: darkred;
   opacity: 0.6;
   transition: opacity ease 0.5s;
 } 
-
+.highlights .ICONIC .numbers div {
+    margin-left: -6px;
+    padding-top: 5px;
+    transform: rotate(-45deg);
+}
 
 button.slide-button 
 {
@@ -697,3 +720,212 @@ button.slide-button
         .jssort121 .ti {position:relative;font-size:14px;font-weight:bold;}
         .jssort121 .d {position:relative;font-size:12px;}
         /*.jssort121 .d:before {content:'\a';white-space:pre;}*/
+        /*   ------------------------ add by ereen  ---------------------- */
+        .home-location{
+            margin-bottom: 35px;
+        }
+
+
+        /* --------------------------------------------------------------- */
+        
+        @media all and (max-width: 480px){
+            .custom-tabs{
+                
+            }
+
+        }
+
+
+        @media all and (max-width: 768px){
+       .content{
+           margin-top: 6px;
+       }
+       .home-text{
+           font-size:24px !important;
+           text-align: center;
+       }
+       .Home button.shortlist{
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        margin-top: 15px;
+       }
+       .home-location{
+        text-align: center;
+        font-size: 16px;
+        margin-top: 15px;
+        font-weight: 600;
+        margin-bottom: 10px;
+       }
+       .home-location i{
+           padding-right: 3px;
+       }
+       .home-welcome{
+        font-size: 30px !important;
+        text-align: center;
+        display: block;
+       }
+.home-open{
+    padding-top: 0;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    /* margin-bottom: 15px; */
+}
+.home-open p{
+    text-align: center !important;
+}
+.home-open-p,
+.home-words,
+{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 15px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    line-height: 1.7;
+}
+.home-words{
+    font-weight: bold;
+    text-align: center;
+    
+}
+.home-words-span{
+    text-align: center;
+    display: block;
+    font-size: 18px;
+
+}
+.home-open-p{
+    text-align: center !important;
+}
+.home-location{
+    display: block;
+    font-size: 18px;
+    text-align: center;
+    margin-top: -20px;
+}
+.line-location{
+    margin: 12px 0;
+}
+.mapId img{
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.location-city{
+    text-align: center;
+}
+.location-city p{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    line-height: 1.7;
+    padding-left: 15px;
+}
+.office-details{
+   
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+}
+.tabs-area{
+    text-align: center;
+    display: inline-block;
+}
+.custom-tabs{
+/* white-space: nowrap; */
+display: flex;
+font-size: 0.7em;
+}
+.custom-tabs li a{
+display: table-cell;
+}
+.office-details .tab-content img {
+    
+        }
+        .right{
+            text-align: center;
+
+        }
+.office-details .tab-content .main-content .availableDesk{
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.office-details .tab-content .main-content  .data  .fa-circle
+{
+	display: none;
+}
+.Facilies,
+.highlights,
+.AboutUs
+{
+    text-align:center
+}
+.highlights{
+    
+    /* margin-top: -30px; */
+    
+    
+}
+.highlights .ICONIC .arch
+{
+margin-top: -10px;
+
+}
+.AboutUs {
+    margin-top: 1px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.Neighbourhood h3 {
+    margin-top: 15px;
+   
+}
+.Neighbourhood .image img{
+    margin: 0 auto;
+    display: block;
+     
+}
+.Neighbourhood .image{
+padding-bottom: 20px;
+}
+.Neighbourhood .neighbours {
+margin-left: 0px;
+margin-top: 20px;
+padding-top: 0px;
+
+}
+.Neighbourhood {
+  
+    padding-bottom: 20px;
+}
+.Facilies{
+    padding-top: 0;
+}
+.content {
+    padding-bottom: 0;
+    margin-bottom: 30px;
+}
+.Facilies .bussines {
+    margin-top: 17px;
+}
+.Facilies .bussines .bus1 i.fa-times,
+.Facilies .Additional .bus1 i.fa-times {
+    
+    margin-left: -12px;
+}
+.Additional {
+    margin-top: 15px;
+}
+.col-item {
+    margin-bottom: 15px;
+}
+    }
+       
+
+          
